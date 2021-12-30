@@ -1,18 +1,31 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <style>
+	.node circle {
+		fill: #999;
+	}
 
-.links line {
-  stroke: #999;
-  stroke-opacity: 0.6;
-}
+	.node text {
+		font: 10px sans-serif;
+	}
 
-.nodes circle {
-  stroke: black	;
-  stroke-width: 0px;
-}
+	.node--internal circle {
+		fill: #555;
+	}
 
+	.node--internal text {
+		text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+	}
+
+	.link {
+		fill: none;
+		stroke: #555;
+		stroke-opacity: 0.4;
+		stroke-width: 1.5px;
+	}
 </style>
-<svg width="100vw" height="100vh"></svg>
+<body>
+	<svg></svg>
+</body>
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="index.js"></script>
+<script src="index2.js"></script>

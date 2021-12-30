@@ -1,138 +1,47 @@
-var svg = d3.select("svg");
-var g = svg.append("g");
 
-var width = svg.attr("width");
-var height = svg.attr("height");
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height"),
+    g = svg.append("g").attr("transform", "translate(" + (width / 2 + 40) + "," + (height / 2 + 90) + ")");
 
-d3.json("data.json", function (data) {
-	var links = [];
+var stratify = d3.stratify().id(function(d) { return d.name; })
+    .parentId(function(d) { print(d); return d.parent});
 
-	for (var i = 0; i < data.nodes.length; i++) {
-		// if (data.nodes[i].bottom == 1) {
-			links.push({
-				source: data.nodes[i].parent,
-				target: data.nodes[i].name,
-				value: data.nodes[i].value,
-			});
-		// }	
-	}
+var tree = d3.tree()
+    .size([2 * Math.PI, 500])
+    .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; });
 
-	// Initialize the links
-	var link = g
-		.append("g")
-		.selectAll("line")
-		.data(links)
-		.enter()
-		.append("line")
-		.style("stroke", "#aaa");
+d3.json("data2.json", function(error, data) {
+  if (error) throw error;
 
-	var textsAndNodes = g
-		.append("g")
-		.selectAll("g")
-		.data(data.nodes)
-		.enter()
-		.append("g");
+  var root = tree(stratify(data));
 
-	// Initialize the nodes
-	var circles = textsAndNodes
-		.append("circle")
-		.attr("r", (d) => (5 - d.value) ** 2)
-		.style("fill", "#69b3a2");
+  var link = g.selectAll(".link")
+    .data(root.links())
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", d3.linkRadial()
+          .angle(function(d) { return d.x; })
+          .radius(function(d) { return d.y; }));
 
-	var texts = textsAndNodes
-		.append("text")
-		.text((d) => d.name)
-		.attr("style", (d) => "font-size: " + (5 - d.value) ** 2 + "px;");
+  var node = g.selectAll(".node")
+    .data(root.descendants())
+    .enter().append("g")
+      .attr("class", function(d) { return "node" + (d.children ? " node--internal" : " node--leaf"); })
+      .attr("transform", function(d) { return "translate(" + radialPoint(d.x, d.y) + ")"; });
 
-	// Let's list the force we wanna apply on the network
-	var simulation = d3
-		.forceSimulation(data.nodes) // Force algorithm is applied to data.nodes
-		.force(
-			"link",
-			d3
-				.forceLink()
-				.strength(function (d) {
-					// Seperates heavy and lightweight nodes
-					return d3
-						.scaleLinear()
-						.range([3, 3.1])
-						.domain(
-							d3.extent(links, function (d) {
-								return d.value;
-							})
-						)(d.value);
-				}) // This force provides links between nodes
-				.id(function (d) {
-					console.log(d);
-					return d.name;
-				}) // This provide the id of a node
-				.links(links) // and this the list of links
-		)
-		.force("charge", d3.forceManyBody().strength(-15)) // This adds repulsion between nodes. Play with the -400 for the repulsion strength
-		.force(
-			"center",
-			d3.forceCenter(window.innerWidth / 2, window.innerHeight / 2)
-		) // This force attracts nodes to the center of the svg area
-		.on("tick", ticked);
 
-	// This function is run at each iteration of the force algorithm, updating the nodes position.
-	function ticked() {
-		link
-			.attr("x1", function (d) {
-				return d.source.x;
-			})
-			.attr("y1", function (d) {
-				return d.source.y;
-			})
-			.attr("x2", function (d) {
-				return d.target.x;
-			})
-			.attr("y2", function (d) {
-				return d.target.y;
-			});
+  node.append("circle")
+      .attr("r", 2.5);
 
-		textsAndNodes.attr(
-			"transform",
-			(d) => "translate(" + d.x + ", " + d.y + ")"
-		);
-	}
-
-	//add zoom capabilities
-	var zoom_handler = d3.zoom().on("zoom", zoom_actions);
-
-	zoom_handler(svg);
-
-	//Zoom functions
-	function zoom_actions() {
-		g.attr("transform", d3.event.transform);
-	}
-
-	//add drag capabilities
-	var drag_handler = d3
-		.drag()
-		.on("start", drag_start)
-		.on("drag", drag_drag)
-		.on("end", drag_end);
-
-	drag_handler(textsAndNodes);
-
-	//Drag functions
-	//d is the node
-	function drag_start(d) {
-		if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-		d.fx = d.x;
-		d.fy = d.y;
-	}
-
-	//make sure you can't drag the circle outside the box
-	function drag_drag(d) {
-		d.fx = d3.event.x;
-		d.fy = d3.event.y;
-	}
-
-	function drag_end(d) {
-		if (!d3.event.active) simulation.alphaTarget(0);
-		d.fx = null;
-		d.fy = null;
-	}
+  node.append("text")
+      .attr("dy", "0.31em")
+      .attr("x", function(d) { return d.x < Math.PI === !d.children ? 6 : -6; })
+      .attr("text-anchor", function(d) { return d.x < Math.PI === !d.children ? "start" : "end"; })
+      .attr("transform", function(d) { return "rotate(" + (d.x < Math.PI ? d.x - Math.PI / 2 : d.x + Math.PI / 2) * 180 / Math.PI + ")"; })
+      .text(function(d) { return d.id.substring(d.id.lastIndexOf(".") + 1); });
 });
+
+function radialPoint(x, y) {
+  return [(y = +y) * Math.cos(x -= Math.PI / 2), y * Math.sin(x)];
+}

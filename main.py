@@ -1,3 +1,4 @@
+from os import close
 import requests
 import json as js
 import pprint as pp
@@ -19,11 +20,14 @@ def get_sublist(unit: str, parent: str, num):
             if ("subunits" in json["subunits"][i]) and (len(json["subunits"][i]["subunits"]) != 0):
                 bot = 0
             get_sublist(json["subunits"][i]["acronym"], unit, num+1)
-    nodes.append({"name": unit, "parent": parent, "value": num, "bottom": bot})
+    nodes.append({"name": unit, "parent": parent})
 
     # print(type(subtree))
 get_sublist("EPFL", "EPFL", 0)
 
-with open('data.json', 'w') as f:
-    js.dump(nodes, f)
-
+with open('data.csv', 'w') as f:
+    for element in nodes:
+        entry = element["name"] + str(", ") + element["parent"]
+        print(entry)
+        f.write(entry)
+    f.close()
