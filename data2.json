@@ -1,0 +1,5988 @@
+{
+    "nodes": [
+        {
+            "name": "EPFL",
+            "parent": "EPFL"
+        },
+        {
+            "name": "CDM",
+            "parent": "EPFL"
+        },
+        {
+            "name": "CDM-DIR",
+            "parent": "CDM"
+        },
+        {
+            "name": "CDM-DI",
+            "parent": "CDM-DIR"
+        },
+        {
+            "name": "CDM-JPD",
+            "parent": "CDM-DIR"
+        },
+        {
+            "name": "CF-CDM",
+            "parent": "CDM-DIR"
+        },
+        {
+            "name": "E4S",
+            "parent": "CDM-DIR"
+        },
+        {
+            "name": "EXED",
+            "parent": "CDM-DIR"
+        },
+        {
+            "name": "PH-CDM",
+            "parent": "CDM-DIR"
+        },
+        {
+            "name": "CDM-IF",
+            "parent": "CDM"
+        },
+        {
+            "name": "IF-GE",
+            "parent": "CDM-IF"
+        },
+        {
+            "name": "IF-ENS",
+            "parent": "CDM-IF"
+        },
+        {
+            "name": "CDM-SG",
+            "parent": "CDM"
+        },
+        {
+            "name": "CDM-GE",
+            "parent": "CDM-SG"
+        },
+        {
+            "name": "CDM-IT",
+            "parent": "CDM-SG"
+        },
+        {
+            "name": "CDM-FI",
+            "parent": "CDM-SG"
+        },
+        {
+            "name": "CDM-RH",
+            "parent": "CDM-SG"
+        },
+        {
+            "name": "MTE-IF-GE",
+            "parent": "CDM-SG"
+        },
+        {
+            "name": "CDM-MTE",
+            "parent": "CDM"
+        },
+        {
+            "name": "MTE-GE",
+            "parent": "CDM-MTE"
+        },
+        {
+            "name": "MTE-ENS",
+            "parent": "CDM-MTE"
+        },
+        {
+            "name": "MTEI",
+            "parent": "CDM"
+        },
+        {
+            "name": "CEMI",
+            "parent": "MTEI"
+        },
+        {
+            "name": "BAN",
+            "parent": "MTEI"
+        },
+        {
+            "name": "IIPP",
+            "parent": "MTEI"
+        },
+        {
+            "name": "OES",
+            "parent": "MTEI"
+        },
+        {
+            "name": "TIS",
+            "parent": "MTEI"
+        },
+        {
+            "name": "TOM",
+            "parent": "MTEI"
+        },
+        {
+            "name": "ENTC",
+            "parent": "MTEI"
+        },
+        {
+            "name": "MTEI-GE",
+            "parent": "MTEI"
+        },
+        {
+            "name": "RAO",
+            "parent": "MTEI"
+        },
+        {
+            "name": "SFI",
+            "parent": "CDM"
+        },
+        {
+            "name": "SFI-JH",
+            "parent": "SFI"
+        },
+        {
+            "name": "SFI-AF",
+            "parent": "SFI"
+        },
+        {
+            "name": "SFI-SM",
+            "parent": "SFI"
+        },
+        {
+            "name": "SFI-RF",
+            "parent": "SFI"
+        },
+        {
+            "name": "SFI-LL",
+            "parent": "SFI"
+        },
+        {
+            "name": "SFI-EM",
+            "parent": "SFI"
+        },
+        {
+            "name": "SFI-PCD",
+            "parent": "SFI"
+        },
+        {
+            "name": "SFI-GE",
+            "parent": "SFI"
+        },
+        {
+            "name": "CSF",
+            "parent": "SFI"
+        },
+        {
+            "name": "CDH",
+            "parent": "EPFL"
+        },
+        {
+            "name": "CDH-CH",
+            "parent": "CDH"
+        },
+        {
+            "name": "CDH-SODH",
+            "parent": "CDH"
+        },
+        {
+            "name": "SODH-GE",
+            "parent": "CDH-SODH"
+        },
+        {
+            "name": "SODH-ENS",
+            "parent": "CDH-SODH"
+        },
+        {
+            "name": "CDH-DIR",
+            "parent": "CDH"
+        },
+        {
+            "name": "CDH-DI",
+            "parent": "CDH-DIR"
+        },
+        {
+            "name": "PH-CDH",
+            "parent": "CDH-DIR"
+        },
+        {
+            "name": "DHI",
+            "parent": "CDH"
+        },
+        {
+            "name": "DHI-GE",
+            "parent": "DHI"
+        },
+        {
+            "name": "DHLAB",
+            "parent": "DHI"
+        },
+        {
+            "name": "DCML",
+            "parent": "DHI"
+        },
+        {
+            "name": "EMPLUS",
+            "parent": "DHI"
+        },
+        {
+            "name": "LHST",
+            "parent": "DHI"
+        },
+        {
+            "name": "CDH-EPFL-PAVILIONS",
+            "parent": "CDH"
+        },
+        {
+            "name": "EPFL-PAVILIONS-GE",
+            "parent": "CDH-EPFL-PAVILIONS"
+        },
+        {
+            "name": "CDH-SHS",
+            "parent": "CDH"
+        },
+        {
+            "name": "SHS-GE",
+            "parent": "CDH-SHS"
+        },
+        {
+            "name": "SHS-ENS",
+            "parent": "CDH-SHS"
+        },
+        {
+            "name": "IAGS",
+            "parent": "CDH"
+        },
+        {
+            "name": "IAGS-GE",
+            "parent": "IAGS"
+        },
+        {
+            "name": "UPKAPOSSY",
+            "parent": "IAGS"
+        },
+        {
+            "name": "ME",
+            "parent": "EPFL"
+        },
+        {
+            "name": "ADM",
+            "parent": "ME"
+        },
+        {
+            "name": "MGT-ADM",
+            "parent": "ADM"
+        },
+        {
+            "name": "FIN",
+            "parent": "ADM"
+        },
+        {
+            "name": "HE",
+            "parent": "ADM"
+        },
+        {
+            "name": "LEGAL",
+            "parent": "ADM"
+        },
+        {
+            "name": "PLC",
+            "parent": "ADM"
+        },
+        {
+            "name": "GEN",
+            "parent": "ME"
+        },
+        {
+            "name": "DO",
+            "parent": "GEN"
+        },
+        {
+            "name": "MARCOMS",
+            "parent": "GEN"
+        },
+        {
+            "name": "FL",
+            "parent": "ME"
+        },
+        {
+            "name": "MGT-FL",
+            "parent": "FL"
+        },
+        {
+            "name": "CAMPUS",
+            "parent": "FL"
+        },
+        {
+            "name": "RES",
+            "parent": "FL"
+        },
+        {
+            "name": "TR",
+            "parent": "FL"
+        },
+        {
+            "name": "IT",
+            "parent": "ME"
+        },
+        {
+            "name": "HPC",
+            "parent": "IT"
+        },
+        {
+            "name": "HW",
+            "parent": "IT"
+        },
+        {
+            "name": "MGT-IT",
+            "parent": "IT"
+        },
+        {
+            "name": "NWK",
+            "parent": "IT"
+        },
+        {
+            "name": "SW",
+            "parent": "IT"
+        },
+        {
+            "name": "ICT",
+            "parent": "IT"
+        },
+        {
+            "name": "MDW",
+            "parent": "IT"
+        },
+        {
+            "name": "ME-SEME",
+            "parent": "ME"
+        },
+        {
+            "name": "SEME-ADM",
+            "parent": "ME-SEME"
+        },
+        {
+            "name": "SEME-EDU",
+            "parent": "ME-SEME"
+        },
+        {
+            "name": "RE",
+            "parent": "ME"
+        },
+        {
+            "name": "PHD",
+            "parent": "RE"
+        },
+        {
+            "name": "EXECED",
+            "parent": "RE"
+        },
+        {
+            "name": "MS",
+            "parent": "RE"
+        },
+        {
+            "name": "MGT-RE",
+            "parent": "RE"
+        },
+        {
+            "name": "RPEN",
+            "parent": "RE"
+        },
+        {
+            "name": "RPTR",
+            "parent": "RE"
+        },
+        {
+            "name": "RPBE",
+            "parent": "RE"
+        },
+        {
+            "name": "RPWR",
+            "parent": "RE"
+        },
+        {
+            "name": "RPWE",
+            "parent": "RE"
+        },
+        {
+            "name": "WT",
+            "parent": "RE"
+        },
+        {
+            "name": "ANTEN",
+            "parent": "EPFL"
+        },
+        {
+            "name": "ANTFR",
+            "parent": "ANTEN"
+        },
+        {
+            "name": "ANTVS",
+            "parent": "ANTEN"
+        },
+        {
+            "name": "UTVS",
+            "parent": "ANTVS"
+        },
+        {
+            "name": "ETU",
+            "parent": "EPFL"
+        },
+        {
+            "name": "AUDIT-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "AUDIT-H",
+            "parent": "AUDIT-S"
+        },
+        {
+            "name": "AUDIT-E",
+            "parent": "AUDIT-S"
+        },
+        {
+            "name": "AUDIT-EDOC",
+            "parent": "AUDIT-S"
+        },
+        {
+            "name": "CGC_ING-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "CGC_ING-HC",
+            "parent": "CGC_ING-S"
+        },
+        {
+            "name": "EDOC",
+            "parent": "ETU"
+        },
+        {
+            "name": "EDDH",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDAR",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDBB",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDCH",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDCE",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDCB",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDEE",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDEY",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDEN",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDFI",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDPR",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDMX",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDMA",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDME",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDMI",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDMS",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDNE",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDPO",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDPY",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDST",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDMT",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDAM",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDIC",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDRS",
+            "parent": "EDOC"
+        },
+        {
+            "name": "EDHP",
+            "parent": "EDOC"
+        },
+        {
+            "name": "IF-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "IF-H",
+            "parent": "IF-S"
+        },
+        {
+            "name": "IF-HC",
+            "parent": "IF-S"
+        },
+        {
+            "name": "IF-PMH",
+            "parent": "IF-S"
+        },
+        {
+            "name": "IF-PME",
+            "parent": "IF-S"
+        },
+        {
+            "name": "IF-MA1",
+            "parent": "IF-S"
+        },
+        {
+            "name": "IF-MA2",
+            "parent": "IF-S"
+        },
+        {
+            "name": "IF-MA3",
+            "parent": "IF-S"
+        },
+        {
+            "name": "IF-MA4",
+            "parent": "IF-S"
+        },
+        {
+            "name": "IF-E",
+            "parent": "IF-S"
+        },
+        {
+            "name": "MTE-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "MTE-ADMH",
+            "parent": "MTE-S"
+        },
+        {
+            "name": "MTE-H",
+            "parent": "MTE-S"
+        },
+        {
+            "name": "MTE-PG",
+            "parent": "MTE-S"
+        },
+        {
+            "name": "MTE-HC",
+            "parent": "MTE-S"
+        },
+        {
+            "name": "MTE-PMH",
+            "parent": "MTE-S"
+        },
+        {
+            "name": "MTE-PME",
+            "parent": "MTE-S"
+        },
+        {
+            "name": "MTE-MA1",
+            "parent": "MTE-S"
+        },
+        {
+            "name": "MTE-MA2",
+            "parent": "MTE-S"
+        },
+        {
+            "name": "MTE-MA3",
+            "parent": "MTE-S"
+        },
+        {
+            "name": "MTE-MA4",
+            "parent": "MTE-S"
+        },
+        {
+            "name": "MTE-MI1",
+            "parent": "MTE-S"
+        },
+        {
+            "name": "MTE-MI2",
+            "parent": "MTE-S"
+        },
+        {
+            "name": "MTE-E",
+            "parent": "MTE-S"
+        },
+        {
+            "name": "MGT-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "MGT-ADMH",
+            "parent": "MGT-S"
+        },
+        {
+            "name": "MGT-H",
+            "parent": "MGT-S"
+        },
+        {
+            "name": "MGT-PG",
+            "parent": "MGT-S"
+        },
+        {
+            "name": "MGT-HC",
+            "parent": "MGT-S"
+        },
+        {
+            "name": "MGT-PMH",
+            "parent": "MGT-S"
+        },
+        {
+            "name": "MGT-PME",
+            "parent": "MGT-S"
+        },
+        {
+            "name": "MGT-MA1",
+            "parent": "MGT-S"
+        },
+        {
+            "name": "MGT-MA2",
+            "parent": "MGT-S"
+        },
+        {
+            "name": "MGT-MA3",
+            "parent": "MGT-S"
+        },
+        {
+            "name": "MGT-E",
+            "parent": "MGT-S"
+        },
+        {
+            "name": "EME-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "EME-PMH",
+            "parent": "EME-S"
+        },
+        {
+            "name": "EME-PME",
+            "parent": "EME-S"
+        },
+        {
+            "name": "EME-MA1",
+            "parent": "EME-S"
+        },
+        {
+            "name": "EME-MA2",
+            "parent": "EME-S"
+        },
+        {
+            "name": "EME-MA3",
+            "parent": "EME-S"
+        },
+        {
+            "name": "EME-MA4",
+            "parent": "EME-S"
+        },
+        {
+            "name": "AR-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "AR-ADMH",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-ADME",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-H",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-BA1",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-BA2",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-BA3",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-BA4",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-BA5",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-BA6",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-PG",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-HC",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-PMH",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-PME",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-MA1",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-MA2",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-MA3",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-MA4",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-MAN",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-E",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-SH",
+            "parent": "AR-S"
+        },
+        {
+            "name": "AR-SE",
+            "parent": "AR-S"
+        },
+        {
+            "name": "CGC-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "CGC-ADM",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-ADMH",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-ADME",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-H",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-BA1",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-BA2",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-BA3",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-BA4",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-BA5",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-BA6",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-HC",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-PMH",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-PME",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-MA1",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-MA2",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-MA3",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-MA4",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-MAN",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "CGC-E",
+            "parent": "CGC-S"
+        },
+        {
+            "name": "GC-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "GC-ADM",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-ADMH",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-ADME",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-H",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-BA1",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-BA2",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-BA3",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-BA4",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-BA5",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-BA6",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-PG",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-HC",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-PMH",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-PME",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-MA1",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-MA2",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-MA3",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-MA4",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-MAN",
+            "parent": "GC-S"
+        },
+        {
+            "name": "GC-E",
+            "parent": "GC-S"
+        },
+        {
+            "name": "SC-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "SC-ADMH",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-ADME",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-H",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-BA1",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-BA2",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-BA3",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-BA4",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-BA5",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-BA6",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-HC",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-PMH",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-PME",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-MA1",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-MA2",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-MA3",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-MA4",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-MAN",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-E",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-SE",
+            "parent": "SC-S"
+        },
+        {
+            "name": "SC-SEM",
+            "parent": "SC-S"
+        },
+        {
+            "name": "IN-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "IN-ADM",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-ADMH",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-ADME",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-H",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-BA1",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-BA2",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-BA3",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-BA4",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-BA5",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-BA6",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-PG",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-HC",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-PMH",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-PME",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-MA1",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-MA2",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-MA3",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-MA4",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-MAN",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-E",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-SE",
+            "parent": "IN-S"
+        },
+        {
+            "name": "IN-SEM",
+            "parent": "IN-S"
+        },
+        {
+            "name": "DH-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "DH-ADMH",
+            "parent": "DH-S"
+        },
+        {
+            "name": "DH-ADME",
+            "parent": "DH-S"
+        },
+        {
+            "name": "DH-H",
+            "parent": "DH-S"
+        },
+        {
+            "name": "DH-HC",
+            "parent": "DH-S"
+        },
+        {
+            "name": "DH-PMH",
+            "parent": "DH-S"
+        },
+        {
+            "name": "DH-PME",
+            "parent": "DH-S"
+        },
+        {
+            "name": "DH-MA1",
+            "parent": "DH-S"
+        },
+        {
+            "name": "DH-MA2",
+            "parent": "DH-S"
+        },
+        {
+            "name": "DH-MA3",
+            "parent": "DH-S"
+        },
+        {
+            "name": "DH-MA4",
+            "parent": "DH-S"
+        },
+        {
+            "name": "DH-E",
+            "parent": "DH-S"
+        },
+        {
+            "name": "EL-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "EL-ADMH",
+            "parent": "EL-S"
+        },
+        {
+            "name": "EL-H",
+            "parent": "EL-S"
+        },
+        {
+            "name": "EL-BA1",
+            "parent": "EL-S"
+        },
+        {
+            "name": "EL-BA2",
+            "parent": "EL-S"
+        },
+        {
+            "name": "EL-BA3",
+            "parent": "EL-S"
+        },
+        {
+            "name": "EL-BA4",
+            "parent": "EL-S"
+        },
+        {
+            "name": "EL-BA5",
+            "parent": "EL-S"
+        },
+        {
+            "name": "EL-BA6",
+            "parent": "EL-S"
+        },
+        {
+            "name": "EL-PG",
+            "parent": "EL-S"
+        },
+        {
+            "name": "EL-HC",
+            "parent": "EL-S"
+        },
+        {
+            "name": "EL-PMH",
+            "parent": "EL-S"
+        },
+        {
+            "name": "EL-PME",
+            "parent": "EL-S"
+        },
+        {
+            "name": "EL-MA1",
+            "parent": "EL-S"
+        },
+        {
+            "name": "EL-MA2",
+            "parent": "EL-S"
+        },
+        {
+            "name": "EL-MA3",
+            "parent": "EL-S"
+        },
+        {
+            "name": "EL-MA4",
+            "parent": "EL-S"
+        },
+        {
+            "name": "EL-MAN",
+            "parent": "EL-S"
+        },
+        {
+            "name": "EL-E",
+            "parent": "EL-S"
+        },
+        {
+            "name": "SIE-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "SIE-ADM",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-ADMH",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-ADME",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-H",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-BA1",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-BA2",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-BA3",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-BA4",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-BA5",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-BA6",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-PG",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-HC",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-PMH",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-PME",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-MA1",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-MA2",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-MA3",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-MA4",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-MAN",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SIE-E",
+            "parent": "SIE-S"
+        },
+        {
+            "name": "SV-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "SV-ADM",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-ADMH",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-ADME",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-H",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-BA1",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-BA2",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-BA3",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-BA4",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-BA5",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-BA6",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-HC",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-PMH",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-PME",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-MA1",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-MA2",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-MA3",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-MA4",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-MAN",
+            "parent": "SV-S"
+        },
+        {
+            "name": "SV-E",
+            "parent": "SV-S"
+        },
+        {
+            "name": "MX-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "MX-ADMH",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MX-ADME",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MX-H",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MX-BA1",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MX-BA2",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MX-BA3",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MX-BA4",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MX-BA5",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MX-BA6",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MX-HC",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MX-PMH",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MX-PME",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MX-MA1",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MX-MA2",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MX-MA3",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MX-MA4",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MX-MAN",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MX-E",
+            "parent": "MX-S"
+        },
+        {
+            "name": "MA-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "MA-ADM",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-ADMH",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-ADME",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-H",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-BA1",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-BA2",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-BA3",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-BA4",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-BA5",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-BA6",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-DOC",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-PG",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-HC",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-PMH",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-PME",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-MA1",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-MA2",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-MA3",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-MA4",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-MAN",
+            "parent": "MA-S"
+        },
+        {
+            "name": "MA-E",
+            "parent": "MA-S"
+        },
+        {
+            "name": "GM-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "GM-ADMH",
+            "parent": "GM-S"
+        },
+        {
+            "name": "GM-ADME",
+            "parent": "GM-S"
+        },
+        {
+            "name": "GM-H",
+            "parent": "GM-S"
+        },
+        {
+            "name": "GM-BA1",
+            "parent": "GM-S"
+        },
+        {
+            "name": "GM-BA2",
+            "parent": "GM-S"
+        },
+        {
+            "name": "GM-BA3",
+            "parent": "GM-S"
+        },
+        {
+            "name": "GM-BA4",
+            "parent": "GM-S"
+        },
+        {
+            "name": "GM-BA5",
+            "parent": "GM-S"
+        },
+        {
+            "name": "GM-BA6",
+            "parent": "GM-S"
+        },
+        {
+            "name": "GM-HC",
+            "parent": "GM-S"
+        },
+        {
+            "name": "GM-PMH",
+            "parent": "GM-S"
+        },
+        {
+            "name": "GM-PME",
+            "parent": "GM-S"
+        },
+        {
+            "name": "GM-MA1",
+            "parent": "GM-S"
+        },
+        {
+            "name": "GM-MA2",
+            "parent": "GM-S"
+        },
+        {
+            "name": "GM-MA3",
+            "parent": "GM-S"
+        },
+        {
+            "name": "GM-MA4",
+            "parent": "GM-S"
+        },
+        {
+            "name": "GM-MAN",
+            "parent": "GM-S"
+        },
+        {
+            "name": "GM-E",
+            "parent": "GM-S"
+        },
+        {
+            "name": "MT-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "MT-ADM",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-ADMH",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-ADME",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-H",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-BA1",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-BA2",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-BA3",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-BA4",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-BA5",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-BA6",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-HC",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-PMH",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-PME",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-MA1",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-MA2",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-MA3",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-MA4",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-MAN",
+            "parent": "MT-S"
+        },
+        {
+            "name": "MT-E",
+            "parent": "MT-S"
+        },
+        {
+            "name": "PH-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "PH-ADM",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-ADMH",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-ADME",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-H",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-BA1",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-BA2",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-BA3",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-BA4",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-BA5",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-BA6",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-HC",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-PMH",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-PME",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-MA1",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-MA2",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-MA3",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-MA4",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-MAN",
+            "parent": "PH-S"
+        },
+        {
+            "name": "PH-E",
+            "parent": "PH-S"
+        },
+        {
+            "name": "CMS-S",
+            "parent": "ETU"
+        },
+        {
+            "name": "CMS-ADM",
+            "parent": "CMS-S"
+        },
+        {
+            "name": "CMS-H",
+            "parent": "CMS-S"
+        },
+        {
+            "name": "CMS-E",
+            "parent": "CMS-S"
+        },
+        {
+            "name": "F",
+            "parent": "EPFL"
+        },
+        {
+            "name": "F-FICO",
+            "parent": "F"
+        },
+        {
+            "name": "COMPTA",
+            "parent": "F-FICO"
+        },
+        {
+            "name": "CDG",
+            "parent": "F-FICO"
+        },
+        {
+            "name": "GT-14",
+            "parent": "F-FICO"
+        },
+        {
+            "name": "F-VP",
+            "parent": "F"
+        },
+        {
+            "name": "EMVPF",
+            "parent": "F-VP"
+        },
+        {
+            "name": "CIGR",
+            "parent": "F-VP"
+        },
+        {
+            "name": "PLAN",
+            "parent": "F-VP"
+        },
+        {
+            "name": "PMOVPF",
+            "parent": "F-VP"
+        },
+        {
+            "name": "RM",
+            "parent": "F-VP"
+        },
+        {
+            "name": "VPF",
+            "parent": "F-VP"
+        },
+        {
+            "name": "GT-ADMIN",
+            "parent": "F-VP"
+        },
+        {
+            "name": "I",
+            "parent": "EPFL"
+        },
+        {
+            "name": "I-QIE",
+            "parent": "I"
+        },
+        {
+            "name": "QIE-GE",
+            "parent": "I-QIE"
+        },
+        {
+            "name": "I-VP",
+            "parent": "I"
+        },
+        {
+            "name": "IP",
+            "parent": "I-VP"
+        },
+        {
+            "name": "GENT",
+            "parent": "I-VP"
+        },
+        {
+            "name": "SMES",
+            "parent": "I-VP"
+        },
+        {
+            "name": "SIU",
+            "parent": "I-VP"
+        },
+        {
+            "name": "STARTUP",
+            "parent": "I-VP"
+        },
+        {
+            "name": "VPI",
+            "parent": "I-VP"
+        },
+        {
+            "name": "P",
+            "parent": "EPFL"
+        },
+        {
+            "name": "P-DEV",
+            "parent": "P"
+        },
+        {
+            "name": "DEV",
+            "parent": "P-DEV"
+        },
+        {
+            "name": "EPFL-ALUMNI",
+            "parent": "P-DEV"
+        },
+        {
+            "name": "PHI",
+            "parent": "P-DEV"
+        },
+        {
+            "name": "P-SG",
+            "parent": "P"
+        },
+        {
+            "name": "AS",
+            "parent": "P-SG"
+        },
+        {
+            "name": "AE",
+            "parent": "P-SG"
+        },
+        {
+            "name": "SG",
+            "parent": "P-SG"
+        },
+        {
+            "name": "AJ",
+            "parent": "P-SG"
+        },
+        {
+            "name": "LEGAL-EPFL",
+            "parent": "P-SG"
+        },
+        {
+            "name": "OMBUDSMAN",
+            "parent": "P-SG"
+        },
+        {
+            "name": "CCE",
+            "parent": "P-SG"
+        },
+        {
+            "name": "P-PR",
+            "parent": "P"
+        },
+        {
+            "name": "PH-PRES",
+            "parent": "P-PR"
+        },
+        {
+            "name": "INT-AFF",
+            "parent": "P-PR"
+        },
+        {
+            "name": "PRES",
+            "parent": "P-PR"
+        },
+        {
+            "name": "P-STRAT",
+            "parent": "P-PR"
+        },
+        {
+            "name": "P-MEDIACOM",
+            "parent": "P"
+        },
+        {
+            "name": "MEDIACOM",
+            "parent": "P-MEDIACOM"
+        },
+        {
+            "name": "MEC",
+            "parent": "P-MEDIACOM"
+        },
+        {
+            "name": "MEV",
+            "parent": "P-MEDIACOM"
+        },
+        {
+            "name": "MCV",
+            "parent": "P-MEDIACOM"
+        },
+        {
+            "name": "T",
+            "parent": "EPFL"
+        },
+        {
+            "name": "T-VP",
+            "parent": "T"
+        },
+        {
+            "name": "DURABILITE",
+            "parent": "T-VP"
+        },
+        {
+            "name": "EGA",
+            "parent": "T-VP"
+        },
+        {
+            "name": "VPT",
+            "parent": "T-VP"
+        },
+        {
+            "name": "ENAC",
+            "parent": "EPFL"
+        },
+        {
+            "name": "IIC",
+            "parent": "ENAC"
+        },
+        {
+            "name": "IMAC",
+            "parent": "IIC"
+        },
+        {
+            "name": "IBOIS",
+            "parent": "IIC"
+        },
+        {
+            "name": "CCLAB",
+            "parent": "IIC"
+        },
+        {
+            "name": "LSMS",
+            "parent": "IIC"
+        },
+        {
+            "name": "EESD",
+            "parent": "IIC"
+        },
+        {
+            "name": "LHE",
+            "parent": "IIC"
+        },
+        {
+            "name": "GEL",
+            "parent": "IIC"
+        },
+        {
+            "name": "GR-GN",
+            "parent": "IIC"
+        },
+        {
+            "name": "HOBEL",
+            "parent": "IIC"
+        },
+        {
+            "name": "PL-LCH",
+            "parent": "IIC"
+        },
+        {
+            "name": "IIC-GE",
+            "parent": "IIC"
+        },
+        {
+            "name": "LEMR",
+            "parent": "IIC"
+        },
+        {
+            "name": "RESSLAB",
+            "parent": "IIC"
+        },
+        {
+            "name": "LMS",
+            "parent": "IIC"
+        },
+        {
+            "name": "LESO-PB",
+            "parent": "IIC"
+        },
+        {
+            "name": "IBETON",
+            "parent": "IIC"
+        },
+        {
+            "name": "GIS-GE",
+            "parent": "IIC"
+        },
+        {
+            "name": "MCS",
+            "parent": "IIC"
+        },
+        {
+            "name": "TEBEL",
+            "parent": "IIC"
+        },
+        {
+            "name": "TRANSP-OR",
+            "parent": "IIC"
+        },
+        {
+            "name": "LUTS",
+            "parent": "IIC"
+        },
+        {
+            "name": "VITA",
+            "parent": "IIC"
+        },
+        {
+            "name": "ENAC-SAR",
+            "parent": "ENAC"
+        },
+        {
+            "name": "SAR-GE",
+            "parent": "ENAC-SAR"
+        },
+        {
+            "name": "SAR-ASSIST",
+            "parent": "ENAC-SAR"
+        },
+        {
+            "name": "SAR-D",
+            "parent": "ENAC-SAR"
+        },
+        {
+            "name": "SAR-ENS",
+            "parent": "ENAC-SAR"
+        },
+        {
+            "name": "ENAC-SGC",
+            "parent": "ENAC"
+        },
+        {
+            "name": "SGC-GE",
+            "parent": "ENAC-SGC"
+        },
+        {
+            "name": "SGC-ENS",
+            "parent": "ENAC-SGC"
+        },
+        {
+            "name": "ENAC-DEC",
+            "parent": "ENAC"
+        },
+        {
+            "name": "ENAC-DO",
+            "parent": "ENAC-DEC"
+        },
+        {
+            "name": "DOENAC",
+            "parent": "ENAC-DEC"
+        },
+        {
+            "name": "PH-ENAC",
+            "parent": "ENAC-DEC"
+        },
+        {
+            "name": "CF-ENAC",
+            "parent": "ENAC-DEC"
+        },
+        {
+            "name": "ENAC-SSIE",
+            "parent": "ENAC"
+        },
+        {
+            "name": "SSIE-GE",
+            "parent": "ENAC-SSIE"
+        },
+        {
+            "name": "SSIE-ENS",
+            "parent": "ENAC-SSIE"
+        },
+        {
+            "name": "ENAC-SG",
+            "parent": "ENAC"
+        },
+        {
+            "name": "ENAC-GE",
+            "parent": "ENAC-SG"
+        },
+        {
+            "name": "ENAC-IT",
+            "parent": "ENAC-SG"
+        },
+        {
+            "name": "ENAC-FI",
+            "parent": "ENAC-SG"
+        },
+        {
+            "name": "ENAC-RH",
+            "parent": "ENAC-SG"
+        },
+        {
+            "name": "ENAC-INNO",
+            "parent": "ENAC-SG"
+        },
+        {
+            "name": "ENAC-AM",
+            "parent": "ENAC-SG"
+        },
+        {
+            "name": "ENAC-PLTE",
+            "parent": "ENAC-SG"
+        },
+        {
+            "name": "SKIL",
+            "parent": "ENAC-SG"
+        },
+        {
+            "name": "IIE",
+            "parent": "ENAC"
+        },
+        {
+            "name": "APRL",
+            "parent": "IIE"
+        },
+        {
+            "name": "GR-CEL",
+            "parent": "IIE"
+        },
+        {
+            "name": "DISAL",
+            "parent": "IIE"
+        },
+        {
+            "name": "ECOL",
+            "parent": "IIE"
+        },
+        {
+            "name": "ECOS",
+            "parent": "IIE"
+        },
+        {
+            "name": "LCE",
+            "parent": "IIE"
+        },
+        {
+            "name": "ECEO",
+            "parent": "IIE"
+        },
+        {
+            "name": "EML",
+            "parent": "IIE"
+        },
+        {
+            "name": "LTE",
+            "parent": "IIE"
+        },
+        {
+            "name": "EERL",
+            "parent": "IIE"
+        },
+        {
+            "name": "TOPO",
+            "parent": "IIE"
+        },
+        {
+            "name": "LASIG",
+            "parent": "IIE"
+        },
+        {
+            "name": "IIE-GE",
+            "parent": "IIE"
+        },
+        {
+            "name": "LBE",
+            "parent": "IIE"
+        },
+        {
+            "name": "LGB",
+            "parent": "IIE"
+        },
+        {
+            "name": "LTQE",
+            "parent": "IIE"
+        },
+        {
+            "name": "CRYOS",
+            "parent": "IIE"
+        },
+        {
+            "name": "ECHO",
+            "parent": "IIE"
+        },
+        {
+            "name": "TOX",
+            "parent": "IIE"
+        },
+        {
+            "name": "LAPI",
+            "parent": "IIE"
+        },
+        {
+            "name": "HERUS",
+            "parent": "IIE"
+        },
+        {
+            "name": "GR-LUD",
+            "parent": "IIE"
+        },
+        {
+            "name": "APHYS",
+            "parent": "IIE"
+        },
+        {
+            "name": "PERL",
+            "parent": "IIE"
+        },
+        {
+            "name": "UPHCE",
+            "parent": "IIE"
+        },
+        {
+            "name": "SLAB",
+            "parent": "IIE"
+        },
+        {
+            "name": "SBER",
+            "parent": "IIE"
+        },
+        {
+            "name": "CEAT",
+            "parent": "IIE"
+        },
+        {
+            "name": "WIRE",
+            "parent": "IIE"
+        },
+        {
+            "name": "HRC",
+            "parent": "ENAC"
+        },
+        {
+            "name": "HRC-GE",
+            "parent": "HRC"
+        },
+        {
+            "name": "IA",
+            "parent": "ENAC"
+        },
+        {
+            "name": "GR-ACM",
+            "parent": "IA"
+        },
+        {
+            "name": "ACHT",
+            "parent": "IA"
+        },
+        {
+            "name": "LAPIS",
+            "parent": "IA"
+        },
+        {
+            "name": "BUILD-O",
+            "parent": "IA"
+        },
+        {
+            "name": "ARCHIZOOM",
+            "parent": "IA"
+        },
+        {
+            "name": "LCC",
+            "parent": "IA"
+        },
+        {
+            "name": "ALICE",
+            "parent": "IA"
+        },
+        {
+            "name": "LABA",
+            "parent": "IA"
+        },
+        {
+            "name": "IA-GE",
+            "parent": "IA"
+        },
+        {
+            "name": "MANSLAB2",
+            "parent": "IA"
+        },
+        {
+            "name": "FORM",
+            "parent": "IA"
+        },
+        {
+            "name": "MANSLAB-CO",
+            "parent": "IA"
+        },
+        {
+            "name": "MANSLAB1",
+            "parent": "IA"
+        },
+        {
+            "name": "LAST",
+            "parent": "IA"
+        },
+        {
+            "name": "FAR",
+            "parent": "IA"
+        },
+        {
+            "name": "CNPA",
+            "parent": "IA"
+        },
+        {
+            "name": "EAST-CO",
+            "parent": "IA"
+        },
+        {
+            "name": "EAST1",
+            "parent": "IA"
+        },
+        {
+            "name": "LEURE",
+            "parent": "IA"
+        },
+        {
+            "name": "LIF",
+            "parent": "IA"
+        },
+        {
+            "name": "LIPID",
+            "parent": "IA"
+        },
+        {
+            "name": "TSAM",
+            "parent": "IA"
+        },
+        {
+            "name": "LAB-U",
+            "parent": "IA"
+        },
+        {
+            "name": "LDM2",
+            "parent": "IA"
+        },
+        {
+            "name": "EAST2",
+            "parent": "IA"
+        },
+        {
+            "name": "SXL",
+            "parent": "IA"
+        },
+        {
+            "name": "TEXAS",
+            "parent": "IA"
+        },
+        {
+            "name": "LTH2",
+            "parent": "IA"
+        },
+        {
+            "name": "LTH3",
+            "parent": "IA"
+        },
+        {
+            "name": "LASUR",
+            "parent": "IA"
+        },
+        {
+            "name": "LIMNC",
+            "parent": "ENAC"
+        },
+        {
+            "name": "LIMNC-GE",
+            "parent": "LIMNC"
+        },
+        {
+            "name": "SB",
+            "parent": "EPFL"
+        },
+        {
+            "name": "ISIC",
+            "parent": "SB"
+        },
+        {
+            "name": "SWISSCAT",
+            "parent": "ISIC"
+        },
+        {
+            "name": "ISIC-CHSP",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LCMD",
+            "parent": "ISIC"
+        },
+        {
+            "name": "ISIC-EMEWP",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LAS",
+            "parent": "ISIC"
+        },
+        {
+            "name": "GSCP",
+            "parent": "ISIC"
+        },
+        {
+            "name": "ISIC-GE",
+            "parent": "ISIC"
+        },
+        {
+            "name": "ISIC-DIV",
+            "parent": "ISIC"
+        },
+        {
+            "name": "ISIC-GE-VS",
+            "parent": "ISIC"
+        },
+        {
+            "name": "ISIC-ITDMP",
+            "parent": "ISIC"
+        },
+        {
+            "name": "GR-KRO",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LIMNO",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LUXS",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LCSA",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LCBIM",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LCBM",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LCSO",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LGRC",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LOCBP",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LCBC",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LCSB",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LEAGO",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LFIM",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LSCI",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LCIB",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LRM",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LMER",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LND",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LCPM",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LSMO",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LNB",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LNCE",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LCOM",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LSPM",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LPI",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LEPA",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LIP",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LCS",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LPDC",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LSPN",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LCPT",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LPPT",
+            "parent": "ISIC"
+        },
+        {
+            "name": "LSU",
+            "parent": "ISIC"
+        },
+        {
+            "name": "ISIC-MSEAP",
+            "parent": "ISIC"
+        },
+        {
+            "name": "GR-MO",
+            "parent": "ISIC"
+        },
+        {
+            "name": "ISIC-NMRP",
+            "parent": "ISIC"
+        },
+        {
+            "name": "GR-OST",
+            "parent": "ISIC"
+        },
+        {
+            "name": "UPSCHWALLER",
+            "parent": "ISIC"
+        },
+        {
+            "name": "GR-PUL",
+            "parent": "ISIC"
+        },
+        {
+            "name": "SCI-SB-MM",
+            "parent": "ISIC"
+        },
+        {
+            "name": "SCI-SB-MN",
+            "parent": "ISIC"
+        },
+        {
+            "name": "SCI-SB-RB",
+            "parent": "ISIC"
+        },
+        {
+            "name": "SCI-SB-SG",
+            "parent": "ISIC"
+        },
+        {
+            "name": "ISIC-XRDSAP",
+            "parent": "ISIC"
+        },
+        {
+            "name": "MATH",
+            "parent": "SB"
+        },
+        {
+            "name": "CAG",
+            "parent": "MATH"
+        },
+        {
+            "name": "CAMA",
+            "parent": "MATH"
+        },
+        {
+            "name": "CAMP",
+            "parent": "MATH"
+        },
+        {
+            "name": "TAN",
+            "parent": "MATH"
+        },
+        {
+            "name": "STAP",
+            "parent": "MATH"
+        },
+        {
+            "name": "ARG",
+            "parent": "MATH"
+        },
+        {
+            "name": "BIOSTAT",
+            "parent": "MATH"
+        },
+        {
+            "name": "CAC",
+            "parent": "MATH"
+        },
+        {
+            "name": "DCG",
+            "parent": "MATH"
+        },
+        {
+            "name": "ANMC",
+            "parent": "MATH"
+        },
+        {
+            "name": "MCSS",
+            "parent": "MATH"
+        },
+        {
+            "name": "OPTIM",
+            "parent": "MATH"
+        },
+        {
+            "name": "DISOPT",
+            "parent": "MATH"
+        },
+        {
+            "name": "DOLA",
+            "parent": "MATH"
+        },
+        {
+            "name": "ERG",
+            "parent": "MATH"
+        },
+        {
+            "name": "EGG",
+            "parent": "MATH"
+        },
+        {
+            "name": "AMCV",
+            "parent": "MATH"
+        },
+        {
+            "name": "MDS1",
+            "parent": "MATH"
+        },
+        {
+            "name": "SMAT",
+            "parent": "MATH"
+        },
+        {
+            "name": "TN",
+            "parent": "MATH"
+        },
+        {
+            "name": "MNS",
+            "parent": "MATH"
+        },
+        {
+            "name": "PDE",
+            "parent": "MATH"
+        },
+        {
+            "name": "PROB",
+            "parent": "MATH"
+        },
+        {
+            "name": "RGM",
+            "parent": "MATH"
+        },
+        {
+            "name": "SDS",
+            "parent": "MATH"
+        },
+        {
+            "name": "CSFT",
+            "parent": "MATH"
+        },
+        {
+            "name": "STAT",
+            "parent": "MATH"
+        },
+        {
+            "name": "PRST",
+            "parent": "MATH"
+        },
+        {
+            "name": "LCVMM",
+            "parent": "MATH"
+        },
+        {
+            "name": "MATH-GE",
+            "parent": "MATH"
+        },
+        {
+            "name": "MATH-DIV",
+            "parent": "MATH"
+        },
+        {
+            "name": "ANCHP",
+            "parent": "MATH"
+        },
+        {
+            "name": "GR-PI",
+            "parent": "MATH"
+        },
+        {
+            "name": "UPMOSCHIDIS",
+            "parent": "MATH"
+        },
+        {
+            "name": "SCI-SB-JS",
+            "parent": "MATH"
+        },
+        {
+            "name": "SCI-SB-SD",
+            "parent": "MATH"
+        },
+        {
+            "name": "CSQI",
+            "parent": "MATH"
+        },
+        {
+            "name": "GR-TES",
+            "parent": "MATH"
+        },
+        {
+            "name": "GR-TR",
+            "parent": "MATH"
+        },
+        {
+            "name": "IPHYS",
+            "parent": "SB"
+        },
+        {
+            "name": "SCI-SB-HD",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "GR-ANDERSON",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "CSEA",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "C3MP",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "CTMC",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "IPHYS-CRP",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "CQSL",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "IPHYS-CGCP",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "EPSL",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LSME",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "IPHYS-AT-PH",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "FSL",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "GCMP",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "GPSB",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "GTP",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "GR-GA",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LPHE1",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LPHE-LS",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LPHE-OS",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "HQC",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "IPHYS-GE",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "IPHYS-AT-BSP",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "IPHYS-DIV",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "IDEPHICS2",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LQG",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LQM",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LTM",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LUQ",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LUMES",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LASPE",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LASTRO",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LBEM",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LEB",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LIFMET",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LSEN",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LPMC",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LNS",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LPPC",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LPQM1",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LOEQ",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LQP",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LRS",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LMSC2",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LBS",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LTPN",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LPBS",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LPMV",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LPMN",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LPN",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LLTCP",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LPAP",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "PCSL",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "UPGORBENKO",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "SCI-SB-FC",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "SCI-SB-MG",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "SCI-SB-PJ",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "SCI-SB-RH",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "SPOC1",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LPTP",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "GR-VICHI",
+            "parent": "IPHYS"
+        },
+        {
+            "name": "LACUS",
+            "parent": "SB"
+        },
+        {
+            "name": "LACUS-GE",
+            "parent": "LACUS"
+        },
+        {
+            "name": "SB-SCGC",
+            "parent": "SB"
+        },
+        {
+            "name": "SCGC-GE",
+            "parent": "SB-SCGC"
+        },
+        {
+            "name": "SCGC-ENS",
+            "parent": "SB-SCGC"
+        },
+        {
+            "name": "SB-DEC",
+            "parent": "SB"
+        },
+        {
+            "name": "SB-DO",
+            "parent": "SB-DEC"
+        },
+        {
+            "name": "PH-SB",
+            "parent": "SB-DEC"
+        },
+        {
+            "name": "CF-SB",
+            "parent": "SB-DEC"
+        },
+        {
+            "name": "SB-SG",
+            "parent": "SB"
+        },
+        {
+            "name": "SB-GE",
+            "parent": "SB-SG"
+        },
+        {
+            "name": "SB-IT",
+            "parent": "SB-SG"
+        },
+        {
+            "name": "SB-FI",
+            "parent": "SB-SG"
+        },
+        {
+            "name": "SB-RH",
+            "parent": "SB-SG"
+        },
+        {
+            "name": "SB-IN",
+            "parent": "SB-SG"
+        },
+        {
+            "name": "SB-SST",
+            "parent": "SB-SG"
+        },
+        {
+            "name": "SB-SMA",
+            "parent": "SB"
+        },
+        {
+            "name": "SMA-GE",
+            "parent": "SB-SMA"
+        },
+        {
+            "name": "SMA-ENS",
+            "parent": "SB-SMA"
+        },
+        {
+            "name": "SB-SPH",
+            "parent": "SB"
+        },
+        {
+            "name": "SPH-GE",
+            "parent": "SB-SPH"
+        },
+        {
+            "name": "SPH-ENS",
+            "parent": "SB-SPH"
+        },
+        {
+            "name": "SPC",
+            "parent": "SB"
+        },
+        {
+            "name": "SPC-GE",
+            "parent": "SPC"
+        },
+        {
+            "name": "SPC-BPP",
+            "parent": "SPC"
+        },
+        {
+            "name": "SPC-PB",
+            "parent": "SPC"
+        },
+        {
+            "name": "SPC-II",
+            "parent": "SPC"
+        },
+        {
+            "name": "SPC-MG",
+            "parent": "SPC"
+        },
+        {
+            "name": "SPC-PP",
+            "parent": "SPC"
+        },
+        {
+            "name": "SPC-SG",
+            "parent": "SPC"
+        },
+        {
+            "name": "SPC-TCV",
+            "parent": "SPC"
+        },
+        {
+            "name": "SPC-TH",
+            "parent": "SPC"
+        },
+        {
+            "name": "IC",
+            "parent": "EPFL"
+        },
+        {
+            "name": "C4DT",
+            "parent": "IC"
+        },
+        {
+            "name": "C4DT-GE",
+            "parent": "C4DT"
+        },
+        {
+            "name": "IC-SSC",
+            "parent": "IC"
+        },
+        {
+            "name": "SSC-GE",
+            "parent": "IC-SSC"
+        },
+        {
+            "name": "SSC-ENS",
+            "parent": "IC-SSC"
+        },
+        {
+            "name": "IC-SIN",
+            "parent": "IC"
+        },
+        {
+            "name": "SIN-GE",
+            "parent": "IC-SIN"
+        },
+        {
+            "name": "SIN-ENS",
+            "parent": "IC-SIN"
+        },
+        {
+            "name": "IC-DEC",
+            "parent": "IC"
+        },
+        {
+            "name": "IC-DO",
+            "parent": "IC-DEC"
+        },
+        {
+            "name": "PH-IC",
+            "parent": "IC-DEC"
+        },
+        {
+            "name": "CF-IC",
+            "parent": "IC-DEC"
+        },
+        {
+            "name": "IC-SG",
+            "parent": "IC"
+        },
+        {
+            "name": "EDOC-IC",
+            "parent": "IC-SG"
+        },
+        {
+            "name": "IC-GE",
+            "parent": "IC-SG"
+        },
+        {
+            "name": "IC-COM",
+            "parent": "IC-SG"
+        },
+        {
+            "name": "IC-IT",
+            "parent": "IC-SG"
+        },
+        {
+            "name": "IC-PEU",
+            "parent": "IC-SG"
+        },
+        {
+            "name": "IC-FI",
+            "parent": "IC-SG"
+        },
+        {
+            "name": "IC-RH",
+            "parent": "IC-SG"
+        },
+        {
+            "name": "IC-IN",
+            "parent": "IC-SG"
+        },
+        {
+            "name": "GR-SCI-IC",
+            "parent": "IC"
+        },
+        {
+            "name": "SCI-IC-BD",
+            "parent": "GR-SCI-IC"
+        },
+        {
+            "name": "GR-VA",
+            "parent": "GR-SCI-IC"
+        },
+        {
+            "name": "SCI-IC-MR",
+            "parent": "GR-SCI-IC"
+        },
+        {
+            "name": "GR-PU",
+            "parent": "GR-SCI-IC"
+        },
+        {
+            "name": "SCI-IC-RB",
+            "parent": "GR-SCI-IC"
+        },
+        {
+            "name": "IINFCOM",
+            "parent": "IC"
+        },
+        {
+            "name": "ALGO",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LIA",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LCAV",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LTHC",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LCN1",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LCA2",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "CVLAB",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "CHILI",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "DATA",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "DCSL",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "DLAB",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "DIAS",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "DEDIS",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "DSLAB",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "D-VET",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "DCL",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LSIR",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "GCM",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "HEXHIVE",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "IINFCOM-GE",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "IVRL",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LTHI",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LSI1",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LARA",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LDS",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LINX",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LACAL",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "MDS2",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "MLO",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LDM1",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LCM",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "NAL",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LABOS",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "PARSA",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LAP",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "UPBOSSELUT",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "UPCHIESA",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "UPSALATHE2",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LAMP1",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "RGL",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "RS3LAB",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "SCI-IC-FMO2",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "SACS",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LASEC",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "SPRING",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "SPOC2",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "LAMS",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "THL2",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "THL4",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "THL5",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "TML",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "VLSC",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "VILAB",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "INDY1",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "INDY2",
+            "parent": "IINFCOM"
+        },
+        {
+            "name": "SCALA",
+            "parent": "IC"
+        },
+        {
+            "name": "SCALA-GE",
+            "parent": "SCALA"
+        },
+        {
+            "name": "STI",
+            "parent": "EPFL"
+        },
+        {
+            "name": "CAM",
+            "parent": "STI"
+        },
+        {
+            "name": "CAM-GE",
+            "parent": "CAM"
+        },
+        {
+            "name": "DLL-STI",
+            "parent": "STI"
+        },
+        {
+            "name": "DLL-STI-GE",
+            "parent": "DLL-STI"
+        },
+        {
+            "name": "DLL-STI-ENG",
+            "parent": "DLL-STI"
+        },
+        {
+            "name": "DLL-STI-MATB",
+            "parent": "DLL-STI"
+        },
+        {
+            "name": "DLL-STI-PROT",
+            "parent": "DLL-STI"
+        },
+        {
+            "name": "IEL",
+            "parent": "STI"
+        },
+        {
+            "name": "IEL-GE",
+            "parent": "IEL"
+        },
+        {
+            "name": "IEM",
+            "parent": "STI"
+        },
+        {
+            "name": "ASL",
+            "parent": "IEM"
+        },
+        {
+            "name": "AQUA",
+            "parent": "IEM"
+        },
+        {
+            "name": "LIB",
+            "parent": "IEM"
+        },
+        {
+            "name": "DESL",
+            "parent": "IEM"
+        },
+        {
+            "name": "GR-EB",
+            "parent": "IEM"
+        },
+        {
+            "name": "ESPLAB",
+            "parent": "IEM"
+        },
+        {
+            "name": "ESL",
+            "parent": "IEM"
+        },
+        {
+            "name": "LSBI",
+            "parent": "IEM"
+        },
+        {
+            "name": "GALATEA",
+            "parent": "IEM"
+        },
+        {
+            "name": "GR-SCI-IEL",
+            "parent": "IEM"
+        },
+        {
+            "name": "IEM-GE",
+            "parent": "IEM"
+        },
+        {
+            "name": "IDEPHICS1",
+            "parent": "IEM"
+        },
+        {
+            "name": "LAI",
+            "parent": "IEM"
+        },
+        {
+            "name": "ICLAB",
+            "parent": "IEM"
+        },
+        {
+            "name": "INL",
+            "parent": "IEM"
+        },
+        {
+            "name": "LSI2",
+            "parent": "IEM"
+        },
+        {
+            "name": "GR-KA",
+            "parent": "IEM"
+        },
+        {
+            "name": "LIDIAP",
+            "parent": "IEM"
+        },
+        {
+            "name": "LAFT",
+            "parent": "IEM"
+        },
+        {
+            "name": "LIONS",
+            "parent": "IEM"
+        },
+        {
+            "name": "LPMAT",
+            "parent": "IEM"
+        },
+        {
+            "name": "LAPD",
+            "parent": "IEM"
+        },
+        {
+            "name": "LEMA",
+            "parent": "IEM"
+        },
+        {
+            "name": "LANES",
+            "parent": "IEM"
+        },
+        {
+            "name": "LPQM2",
+            "parent": "IEM"
+        },
+        {
+            "name": "LWE",
+            "parent": "IEM"
+        },
+        {
+            "name": "LASA",
+            "parent": "IEM"
+        },
+        {
+            "name": "LSM",
+            "parent": "IEM"
+        },
+        {
+            "name": "LMIS-CO",
+            "parent": "IEM"
+        },
+        {
+            "name": "LMIS1",
+            "parent": "IEM"
+        },
+        {
+            "name": "LMIS2",
+            "parent": "IEM"
+        },
+        {
+            "name": "LMIS4",
+            "parent": "IEM"
+        },
+        {
+            "name": "NANOLAB",
+            "parent": "IEM"
+        },
+        {
+            "name": "NAM",
+            "parent": "IEM"
+        },
+        {
+            "name": "LO",
+            "parent": "IEM"
+        },
+        {
+            "name": "OPT",
+            "parent": "IEM"
+        },
+        {
+            "name": "PHOSL",
+            "parent": "IEM"
+        },
+        {
+            "name": "PV-LAB",
+            "parent": "IEM"
+        },
+        {
+            "name": "PEL",
+            "parent": "IEM"
+        },
+        {
+            "name": "POWERLAB",
+            "parent": "IEM"
+        },
+        {
+            "name": "UPBENEA-CHELMUS",
+            "parent": "IEM"
+        },
+        {
+            "name": "UPCHOO",
+            "parent": "IEM"
+        },
+        {
+            "name": "GR-QUA",
+            "parent": "IEM"
+        },
+        {
+            "name": "LSRO",
+            "parent": "IEM"
+        },
+        {
+            "name": "SCI-STI-AS",
+            "parent": "IEM"
+        },
+        {
+            "name": "SCI-STI-AXS",
+            "parent": "IEM"
+        },
+        {
+            "name": "SCI-STI-CD",
+            "parent": "IEM"
+        },
+        {
+            "name": "SCI-STI-DG",
+            "parent": "IEM"
+        },
+        {
+            "name": "SCI-STI-FMO1",
+            "parent": "IEM"
+        },
+        {
+            "name": "SCI-STI-FR",
+            "parent": "IEM"
+        },
+        {
+            "name": "SCI-STI-HL",
+            "parent": "IEM"
+        },
+        {
+            "name": "SCI-STI-JMV",
+            "parent": "IEM"
+        },
+        {
+            "name": "SCI-STI-LT",
+            "parent": "IEM"
+        },
+        {
+            "name": "SCI-STI-MM",
+            "parent": "IEM"
+        },
+        {
+            "name": "SCI-STI-RC",
+            "parent": "IEM"
+        },
+        {
+            "name": "LTS2",
+            "parent": "IEM"
+        },
+        {
+            "name": "LTS4",
+            "parent": "IEM"
+        },
+        {
+            "name": "LTS5",
+            "parent": "IEM"
+        },
+        {
+            "name": "SFA-AM",
+            "parent": "IEM"
+        },
+        {
+            "name": "TCL",
+            "parent": "IEM"
+        },
+        {
+            "name": "IMX",
+            "parent": "STI"
+        },
+        {
+            "name": "LC",
+            "parent": "IMX"
+        },
+        {
+            "name": "LMC",
+            "parent": "IMX"
+        },
+        {
+            "name": "IMX-GE",
+            "parent": "IMX"
+        },
+        {
+            "name": "LPAC",
+            "parent": "IMX"
+        },
+        {
+            "name": "INE",
+            "parent": "IMX"
+        },
+        {
+            "name": "COSMO",
+            "parent": "IMX"
+        },
+        {
+            "name": "LMOM",
+            "parent": "IMX"
+        },
+        {
+            "name": "LMGN",
+            "parent": "IMX"
+        },
+        {
+            "name": "FIMAP",
+            "parent": "IMX"
+        },
+        {
+            "name": "QMAT",
+            "parent": "IMX"
+        },
+        {
+            "name": "LMSC",
+            "parent": "IMX"
+        },
+        {
+            "name": "LMTM",
+            "parent": "IMX"
+        },
+        {
+            "name": "THEOS",
+            "parent": "IMX"
+        },
+        {
+            "name": "LMM",
+            "parent": "IMX"
+        },
+        {
+            "name": "NXMM",
+            "parent": "IMX"
+        },
+        {
+            "name": "LP",
+            "parent": "IMX"
+        },
+        {
+            "name": "LTP",
+            "parent": "IMX"
+        },
+        {
+            "name": "PBL",
+            "parent": "IMX"
+        },
+        {
+            "name": "SCI-STI-DD",
+            "parent": "IMX"
+        },
+        {
+            "name": "SCI-STI-PM",
+            "parent": "IMX"
+        },
+        {
+            "name": "SCI-STI-SM",
+            "parent": "IMX"
+        },
+        {
+            "name": "SMAL",
+            "parent": "IMX"
+        },
+        {
+            "name": "SUNMIL",
+            "parent": "IMX"
+        },
+        {
+            "name": "IGM",
+            "parent": "STI"
+        },
+        {
+            "name": "NEMS",
+            "parent": "IGM"
+        },
+        {
+            "name": "LA3",
+            "parent": "IGM"
+        },
+        {
+            "name": "CREATE-LAB",
+            "parent": "IGM"
+        },
+        {
+            "name": "ECPS",
+            "parent": "IGM"
+        },
+        {
+            "name": "EMSI",
+            "parent": "IGM"
+        },
+        {
+            "name": "ERCOFTAC",
+            "parent": "IGM"
+        },
+        {
+            "name": "FLEXLAB",
+            "parent": "IGM"
+        },
+        {
+            "name": "LTCM",
+            "parent": "IGM"
+        },
+        {
+            "name": "LMH",
+            "parent": "IGM"
+        },
+        {
+            "name": "IGM-GE",
+            "parent": "IGM"
+        },
+        {
+            "name": "GR-SCI-IGM",
+            "parent": "IGM"
+        },
+        {
+            "name": "LAMD",
+            "parent": "IGM"
+        },
+        {
+            "name": "LICP",
+            "parent": "IGM"
+        },
+        {
+            "name": "LAMMM",
+            "parent": "IGM"
+        },
+        {
+            "name": "LMAF",
+            "parent": "IGM"
+        },
+        {
+            "name": "LFMI",
+            "parent": "IGM"
+        },
+        {
+            "name": "LIS",
+            "parent": "IGM"
+        },
+        {
+            "name": "LNET",
+            "parent": "IGM"
+        },
+        {
+            "name": "LRESE",
+            "parent": "IGM"
+        },
+        {
+            "name": "LCSM",
+            "parent": "IGM"
+        },
+        {
+            "name": "MICROBS",
+            "parent": "IGM"
+        },
+        {
+            "name": "INSTANT-LAB",
+            "parent": "IGM"
+        },
+        {
+            "name": "UPKAMGARPOUR",
+            "parent": "IGM"
+        },
+        {
+            "name": "RRL",
+            "parent": "IGM"
+        },
+        {
+            "name": "SCI-STI-AK",
+            "parent": "IGM"
+        },
+        {
+            "name": "SCI-STI-DK",
+            "parent": "IGM"
+        },
+        {
+            "name": "SCI-STI-FM",
+            "parent": "IGM"
+        },
+        {
+            "name": "SCI-STI-GFT",
+            "parent": "IGM"
+        },
+        {
+            "name": "SCI-STI-JVH",
+            "parent": "IGM"
+        },
+        {
+            "name": "SCI-STI-MF",
+            "parent": "IGM"
+        },
+        {
+            "name": "SCI-STI-PO",
+            "parent": "IGM"
+        },
+        {
+            "name": "LMTS",
+            "parent": "IGM"
+        },
+        {
+            "name": "UNFOLD",
+            "parent": "IGM"
+        },
+        {
+            "name": "IMT",
+            "parent": "STI"
+        },
+        {
+            "name": "IMT-GE",
+            "parent": "IMT"
+        },
+        {
+            "name": "IBI-STI",
+            "parent": "STI"
+        },
+        {
+            "name": "TNE",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "BIOS",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "BIOROB",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "CNBI",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "LHTC",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "IBI-STI-GE",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "LBP",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "LBNI",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "LBMM",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "LBNC",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "LBI",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "LBO",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "LMAM",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "LBEN",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "LPDI",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "MIPLAB",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "LNE",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "CLSE",
+            "parent": "IBI-STI"
+        },
+        {
+            "name": "MHMC",
+            "parent": "STI"
+        },
+        {
+            "name": "MHMC-GE",
+            "parent": "MHMC"
+        },
+        {
+            "name": "PRN-MARVEL",
+            "parent": "STI"
+        },
+        {
+            "name": "PRNMARVEL-GE",
+            "parent": "PRN-MARVEL"
+        },
+        {
+            "name": "PRN-ROBOTICS",
+            "parent": "STI"
+        },
+        {
+            "name": "PRN-ROBOT-GE",
+            "parent": "PRN-ROBOTICS"
+        },
+        {
+            "name": "SCCER-FURIES",
+            "parent": "STI"
+        },
+        {
+            "name": "FURIES-GE",
+            "parent": "SCCER-FURIES"
+        },
+        {
+            "name": "STI-DEC",
+            "parent": "STI"
+        },
+        {
+            "name": "ACCES",
+            "parent": "STI-DEC"
+        },
+        {
+            "name": "STI-DO",
+            "parent": "STI-DEC"
+        },
+        {
+            "name": "PH-STI",
+            "parent": "STI-DEC"
+        },
+        {
+            "name": "STI-FORM",
+            "parent": "STI-DEC"
+        },
+        {
+            "name": "GR-SCI",
+            "parent": "STI-DEC"
+        },
+        {
+            "name": "CF-STI",
+            "parent": "STI-DEC"
+        },
+        {
+            "name": "STI-SEL",
+            "parent": "STI"
+        },
+        {
+            "name": "SEL-GE",
+            "parent": "STI-SEL"
+        },
+        {
+            "name": "SEL-ENS",
+            "parent": "STI-SEL"
+        },
+        {
+            "name": "STI-SG",
+            "parent": "STI"
+        },
+        {
+            "name": "STI-GE",
+            "parent": "STI-SG"
+        },
+        {
+            "name": "STI-IT",
+            "parent": "STI-SG"
+        },
+        {
+            "name": "STI-FI",
+            "parent": "STI-SG"
+        },
+        {
+            "name": "STI-RH",
+            "parent": "STI-SG"
+        },
+        {
+            "name": "STI-IN",
+            "parent": "STI-SG"
+        },
+        {
+            "name": "STI-SMX",
+            "parent": "STI"
+        },
+        {
+            "name": "SMX-GE",
+            "parent": "STI-SMX"
+        },
+        {
+            "name": "SMX-ENS",
+            "parent": "STI-SMX"
+        },
+        {
+            "name": "STI-SGM",
+            "parent": "STI"
+        },
+        {
+            "name": "SGM-GE",
+            "parent": "STI-SGM"
+        },
+        {
+            "name": "SGM-ENS",
+            "parent": "STI-SGM"
+        },
+        {
+            "name": "STI-SMT",
+            "parent": "STI"
+        },
+        {
+            "name": "SMT-GE",
+            "parent": "STI-SMT"
+        },
+        {
+            "name": "SMT-ENS",
+            "parent": "STI-SMT"
+        },
+        {
+            "name": "PAT",
+            "parent": "STI"
+        },
+        {
+            "name": "ACI",
+            "parent": "PAT"
+        },
+        {
+            "name": "ATMX",
+            "parent": "PAT"
+        },
+        {
+            "name": "ATPR",
+            "parent": "PAT"
+        },
+        {
+            "name": "ATME",
+            "parent": "PAT"
+        },
+        {
+            "name": "AFA",
+            "parent": "PAT"
+        },
+        {
+            "name": "PAT-GE",
+            "parent": "PAT"
+        },
+        {
+            "name": "SV",
+            "parent": "EPFL"
+        },
+        {
+            "name": "BMI",
+            "parent": "SV"
+        },
+        {
+            "name": "BMI-GE",
+            "parent": "BMI"
+        },
+        {
+            "name": "LGC",
+            "parent": "BMI"
+        },
+        {
+            "name": "UPMWMATHIS",
+            "parent": "BMI"
+        },
+        {
+            "name": "LCN2",
+            "parent": "BMI"
+        },
+        {
+            "name": "PVNC",
+            "parent": "BMI"
+        },
+        {
+            "name": "LNCO",
+            "parent": "BMI"
+        },
+        {
+            "name": "GR-JAKSIC",
+            "parent": "BMI"
+        },
+        {
+            "name": "GR-LAMAN",
+            "parent": "BMI"
+        },
+        {
+            "name": "UPHESS",
+            "parent": "BMI"
+        },
+        {
+            "name": "LMNN",
+            "parent": "BMI"
+        },
+        {
+            "name": "LSYM",
+            "parent": "BMI"
+        },
+        {
+            "name": "UPGRAEFF",
+            "parent": "BMI"
+        },
+        {
+            "name": "LNMC",
+            "parent": "BMI"
+        },
+        {
+            "name": "UPAMATHIS",
+            "parent": "BMI"
+        },
+        {
+            "name": "UPCOURTINE",
+            "parent": "BMI"
+        },
+        {
+            "name": "UPHUMMEL",
+            "parent": "BMI"
+        },
+        {
+            "name": "UPMCCABE",
+            "parent": "BMI"
+        },
+        {
+            "name": "UPRAMDYA",
+            "parent": "BMI"
+        },
+        {
+            "name": "LPSY",
+            "parent": "BMI"
+        },
+        {
+            "name": "LSENS",
+            "parent": "BMI"
+        },
+        {
+            "name": "CPG",
+            "parent": "SV"
+        },
+        {
+            "name": "CPG-GE",
+            "parent": "CPG"
+        },
+        {
+            "name": "PTECH",
+            "parent": "SV"
+        },
+        {
+            "name": "PTBTG",
+            "parent": "PTECH"
+        },
+        {
+            "name": "PTBIOP",
+            "parent": "PTECH"
+        },
+        {
+            "name": "PTBIOEM",
+            "parent": "PTECH"
+        },
+        {
+            "name": "PTBET",
+            "parent": "PTECH"
+        },
+        {
+            "name": "BICC",
+            "parent": "PTECH"
+        },
+        {
+            "name": "PTCB",
+            "parent": "PTECH"
+        },
+        {
+            "name": "PTCF",
+            "parent": "PTECH"
+        },
+        {
+            "name": "PTEG",
+            "parent": "PTECH"
+        },
+        {
+            "name": "PTH",
+            "parent": "PTECH"
+        },
+        {
+            "name": "PTEC-GE",
+            "parent": "PTECH"
+        },
+        {
+            "name": "PTPSP",
+            "parent": "PTECH"
+        },
+        {
+            "name": "PTP",
+            "parent": "PTECH"
+        },
+        {
+            "name": "GHI",
+            "parent": "SV"
+        },
+        {
+            "name": "GR-FE",
+            "parent": "GHI"
+        },
+        {
+            "name": "GHI-GE",
+            "parent": "GHI"
+        },
+        {
+            "name": "LVG",
+            "parent": "GHI"
+        },
+        {
+            "name": "UPABLASSER",
+            "parent": "GHI"
+        },
+        {
+            "name": "UPBLO",
+            "parent": "GHI"
+        },
+        {
+            "name": "UPLEM",
+            "parent": "GHI"
+        },
+        {
+            "name": "UPKIN",
+            "parent": "GHI"
+        },
+        {
+            "name": "UPPERSAT",
+            "parent": "GHI"
+        },
+        {
+            "name": "UPSALATHE1",
+            "parent": "GHI"
+        },
+        {
+            "name": "VDG",
+            "parent": "GHI"
+        },
+        {
+            "name": "IBI-SV",
+            "parent": "SV"
+        },
+        {
+            "name": "IBI-SV-GE",
+            "parent": "IBI-SV"
+        },
+        {
+            "name": "LISP",
+            "parent": "IBI-SV"
+        },
+        {
+            "name": "UPBARTH",
+            "parent": "IBI-SV"
+        },
+        {
+            "name": "UPBITBOL",
+            "parent": "IBI-SV"
+        },
+        {
+            "name": "UPDANGELO",
+            "parent": "IBI-SV"
+        },
+        {
+            "name": "UPDALPE",
+            "parent": "IBI-SV"
+        },
+        {
+            "name": "UPDEPLA",
+            "parent": "IBI-SV"
+        },
+        {
+            "name": "UPLUT",
+            "parent": "IBI-SV"
+        },
+        {
+            "name": "UPNAE",
+            "parent": "IBI-SV"
+        },
+        {
+            "name": "UPOATES",
+            "parent": "IBI-SV"
+        },
+        {
+            "name": "UPSCHOONJANS",
+            "parent": "IBI-SV"
+        },
+        {
+            "name": "UPSUTER",
+            "parent": "IBI-SV"
+        },
+        {
+            "name": "GR-WEIGERT",
+            "parent": "IBI-SV"
+        },
+        {
+            "name": "SV-DEC",
+            "parent": "SV"
+        },
+        {
+            "name": "EQUIPM-AGORA",
+            "parent": "SV-DEC"
+        },
+        {
+            "name": "SV-DO",
+            "parent": "SV-DEC"
+        },
+        {
+            "name": "PH-SV",
+            "parent": "SV-DEC"
+        },
+        {
+            "name": "UPAEBISCHER",
+            "parent": "SV-DEC"
+        },
+        {
+            "name": "CF-SV",
+            "parent": "SV-DEC"
+        },
+        {
+            "name": "SV-SG",
+            "parent": "SV"
+        },
+        {
+            "name": "SV-GE",
+            "parent": "SV-SG"
+        },
+        {
+            "name": "SV-BS",
+            "parent": "SV-SG"
+        },
+        {
+            "name": "SV-IT",
+            "parent": "SV-SG"
+        },
+        {
+            "name": "SV-FI",
+            "parent": "SV-SG"
+        },
+        {
+            "name": "SV-RH",
+            "parent": "SV-SG"
+        },
+        {
+            "name": "SV-IN",
+            "parent": "SV-SG"
+        },
+        {
+            "name": "SV-SSV",
+            "parent": "SV"
+        },
+        {
+            "name": "SSV-GE",
+            "parent": "SV-SSV"
+        },
+        {
+            "name": "SSV-ENS",
+            "parent": "SV-SSV"
+        },
+        {
+            "name": "ISREC",
+            "parent": "SV"
+        },
+        {
+            "name": "GR-AZTEKIN",
+            "parent": "ISREC"
+        },
+        {
+            "name": "GR-BUCHER",
+            "parent": "ISREC"
+        },
+        {
+            "name": "ISREC-GE",
+            "parent": "ISREC"
+        },
+        {
+            "name": "CMSO",
+            "parent": "ISREC"
+        },
+        {
+            "name": "GR-NAVEIRAS",
+            "parent": "ISREC"
+        },
+        {
+            "name": "UPBRI",
+            "parent": "ISREC"
+        },
+        {
+            "name": "UPCDA",
+            "parent": "ISREC"
+        },
+        {
+            "name": "UPDEPALMA",
+            "parent": "ISREC"
+        },
+        {
+            "name": "UPDUB",
+            "parent": "ISREC"
+        },
+        {
+            "name": "UPGON",
+            "parent": "ISREC"
+        },
+        {
+            "name": "UPHAN",
+            "parent": "ISREC"
+        },
+        {
+            "name": "UPHUELSKEN",
+            "parent": "ISREC"
+        },
+        {
+            "name": "UPLIN",
+            "parent": "ISREC"
+        },
+        {
+            "name": "UPMEYLAN",
+            "parent": "ISREC"
+        },
+        {
+            "name": "UPORICCHIO",
+            "parent": "ISREC"
+        },
+        {
+            "name": "UPRAD",
+            "parent": "ISREC"
+        },
+        {
+            "name": "UPSIM",
+            "parent": "ISREC"
+        },
+        {
+            "name": "VPA",
+            "parent": "EPFL"
+        },
+        {
+            "name": "VPA-EXTS",
+            "parent": "VPA"
+        },
+        {
+            "name": "VPA-EXTS-GE",
+            "parent": "VPA-EXTS"
+        },
+        {
+            "name": "VPA-FAC",
+            "parent": "VPA"
+        },
+        {
+            "name": "CR",
+            "parent": "VPA-FAC"
+        },
+        {
+            "name": "VPA-EM",
+            "parent": "VPA"
+        },
+        {
+            "name": "VPA-EM-EM",
+            "parent": "VPA-EM"
+        },
+        {
+            "name": "VPA-EM-APR",
+            "parent": "VPA-EM-EM"
+        },
+        {
+            "name": "VPA-EM-ACAD",
+            "parent": "VPA-EM-EM"
+        },
+        {
+            "name": "VPA-EM-COMM",
+            "parent": "VPA-EM-EM"
+        },
+        {
+            "name": "VPA-EM-FI",
+            "parent": "VPA-EM-EM"
+        },
+        {
+            "name": "VPA-EM-AJ",
+            "parent": "VPA-EM-EM"
+        },
+        {
+            "name": "VPA-EM-GE",
+            "parent": "VPA-EM-EM"
+        },
+        {
+            "name": "VPA-OS",
+            "parent": "VPA"
+        },
+        {
+            "name": "VPA-OS-GE",
+            "parent": "VPA-OS"
+        },
+        {
+            "name": "VPA-SISB",
+            "parent": "VPA"
+        },
+        {
+            "name": "VPA-SISB-GE",
+            "parent": "VPA-SISB"
+        },
+        {
+            "name": "VPA-AVP-CP",
+            "parent": "VPA"
+        },
+        {
+            "name": "AVP-CP",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "AVP-CP-GE",
+            "parent": "AVP-CP"
+        },
+        {
+            "name": "AVP-CP-ECO",
+            "parent": "AVP-CP"
+        },
+        {
+            "name": "CIB",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "CIB-GE",
+            "parent": "CIB"
+        },
+        {
+            "name": "CIBM",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "CIBM-GE",
+            "parent": "CIBM"
+        },
+        {
+            "name": "CIBM-AIT",
+            "parent": "CIBM"
+        },
+        {
+            "name": "CIBM-PET",
+            "parent": "CIBM"
+        },
+        {
+            "name": "CIBM-SP",
+            "parent": "CIBM"
+        },
+        {
+            "name": "BBP",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "BBP-EXT",
+            "parent": "BBP"
+        },
+        {
+            "name": "BBP-GR-HILL",
+            "parent": "BBP"
+        },
+        {
+            "name": "BBP-GR-FSCH",
+            "parent": "BBP"
+        },
+        {
+            "name": "BBP-CORE",
+            "parent": "BBP"
+        },
+        {
+            "name": "CLIMACT",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "CLIMACT-GE",
+            "parent": "CLIMACT"
+        },
+        {
+            "name": "CLIMACT-CD",
+            "parent": "CLIMACT"
+        },
+        {
+            "name": "IMAGING",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "IMAGING-GE",
+            "parent": "IMAGING"
+        },
+        {
+            "name": "CIS",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "CIS-GE",
+            "parent": "CIS"
+        },
+        {
+            "name": "CNP",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "CNP-GE",
+            "parent": "CNP"
+        },
+        {
+            "name": "CPH",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "CPH-GE",
+            "parent": "CPH"
+        },
+        {
+            "name": "QSE",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "QSE-GE",
+            "parent": "QSE"
+        },
+        {
+            "name": "CMI",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "CMI-GE",
+            "parent": "CMI"
+        },
+        {
+            "name": "CMI-CD",
+            "parent": "CMI"
+        },
+        {
+            "name": "CCMX",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "CCMX-GE",
+            "parent": "CCMX"
+        },
+        {
+            "name": "CHC",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "CHC-GE",
+            "parent": "CHC"
+        },
+        {
+            "name": "DCI",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "DCI-GE",
+            "parent": "DCI"
+        },
+        {
+            "name": "ESC",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "ESC-GE",
+            "parent": "ESC"
+        },
+        {
+            "name": "EPFL-ECAL-L",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "EPFL-ECAL-GE",
+            "parent": "EPFL-ECAL-L"
+        },
+        {
+            "name": "ECOCLOUD",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "ECOCLOUD-GE",
+            "parent": "ECOCLOUD"
+        },
+        {
+            "name": "CEN",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "CEN-GE",
+            "parent": "CEN"
+        },
+        {
+            "name": "ESSTECH",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "ESSTECH-GE",
+            "parent": "ESSTECH"
+        },
+        {
+            "name": "CECAM",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "CECAM-GE",
+            "parent": "CECAM"
+        },
+        {
+            "name": "EXAF",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "EXAF-GE",
+            "parent": "EXAF"
+        },
+        {
+            "name": "HBP",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "HBP-PCO",
+            "parent": "HBP"
+        },
+        {
+            "name": "PTMH",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "PTMH-GE",
+            "parent": "PTMH"
+        },
+        {
+            "name": "CIME",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "CIME-GE",
+            "parent": "CIME"
+        },
+        {
+            "name": "CIME-CD",
+            "parent": "CIME"
+        },
+        {
+            "name": "IRGC",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "IRGC-GE",
+            "parent": "IRGC"
+        },
+        {
+            "name": "CHD",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "CHD-GE",
+            "parent": "CHD"
+        },
+        {
+            "name": "CHD-CD",
+            "parent": "CHD"
+        },
+        {
+            "name": "CMNT",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "CMNT-GE",
+            "parent": "CMNT"
+        },
+        {
+            "name": "CMNT-NL",
+            "parent": "CMNT"
+        },
+        {
+            "name": "MEDIA",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "MEDIA-GE",
+            "parent": "MEDIA"
+        },
+        {
+            "name": "SCITAS",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "SCITAS-GE",
+            "parent": "SCITAS"
+        },
+        {
+            "name": "SCITAS-CD",
+            "parent": "SCITAS"
+        },
+        {
+            "name": "SDSC",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "SDSC-GE",
+            "parent": "SDSC"
+        },
+        {
+            "name": "SPI",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "SPI-GE",
+            "parent": "SPI"
+        },
+        {
+            "name": "TRACE",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "TRACE-GE",
+            "parent": "TRACE"
+        },
+        {
+            "name": "CNU",
+            "parent": "VPA-AVP-CP"
+        },
+        {
+            "name": "CNU-GE",
+            "parent": "CNU"
+        },
+        {
+            "name": "VPA-AVP-E",
+            "parent": "VPA"
+        },
+        {
+            "name": "AVP-E",
+            "parent": "VPA-AVP-E"
+        },
+        {
+            "name": "AVP-E-GE",
+            "parent": "AVP-E"
+        },
+        {
+            "name": "AVP-E-EBM",
+            "parent": "AVP-E"
+        },
+        {
+            "name": "AVP-E-CEDE",
+            "parent": "AVP-E"
+        },
+        {
+            "name": "AVP-E-LEARN",
+            "parent": "AVP-E"
+        },
+        {
+            "name": "AVP-E-DLL",
+            "parent": "AVP-E"
+        },
+        {
+            "name": "AVP-E-CMS-ENS",
+            "parent": "AVP-E"
+        },
+        {
+            "name": "AVP-E-CMS",
+            "parent": "AVP-E"
+        },
+        {
+            "name": "AVP-E-CEPRO",
+            "parent": "AVP-E"
+        },
+        {
+            "name": "AVP-E-SAC",
+            "parent": "AVP-E"
+        },
+        {
+            "name": "AVP-E-CDS",
+            "parent": "AVP-E"
+        },
+        {
+            "name": "AVP-E-CAPE",
+            "parent": "AVP-E"
+        },
+        {
+            "name": "VPA-AVP-PGE",
+            "parent": "VPA"
+        },
+        {
+            "name": "AVP-PGE",
+            "parent": "VPA-AVP-PGE"
+        },
+        {
+            "name": "AVP-PGE-GE",
+            "parent": "AVP-PGE"
+        },
+        {
+            "name": "AVP-PGE-FC",
+            "parent": "VPA-AVP-PGE"
+        },
+        {
+            "name": "FC-GE",
+            "parent": "AVP-PGE-FC"
+        },
+        {
+            "name": "AVP-PGE-CFC",
+            "parent": "AVP-PGE-FC"
+        },
+        {
+            "name": "AVP-PGE-EDOC",
+            "parent": "VPA-AVP-PGE"
+        },
+        {
+            "name": "EDCH-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDCE-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDIC-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDDH-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDEE-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDEY-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDFI-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDMX-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDMA-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDME-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDMI-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDMS-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDNE-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDPO-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDPY-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDRS-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDAR-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDMT-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDAM-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDBB-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDCB-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDOC-GE",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "CDOCT",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDAM-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDAR-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDBB-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDCB-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDCE-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDCH-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDDH-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDEE-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDEY-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDFI-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDIC-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDMA-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDME-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDMI-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDMS-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDMT-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDMX-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDNE-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDOC-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDPO-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDPY-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "EDRS-ENS",
+            "parent": "AVP-PGE-EDOC"
+        },
+        {
+            "name": "VPA-AVP-R",
+            "parent": "VPA"
+        },
+        {
+            "name": "AVP-R",
+            "parent": "VPA-AVP-R"
+        },
+        {
+            "name": "AVP-R-GE",
+            "parent": "AVP-R"
+        },
+        {
+            "name": "AVP-R-REO",
+            "parent": "AVP-R"
+        },
+        {
+            "name": "AVP-R-TTO",
+            "parent": "AVP-R"
+        },
+        {
+            "name": "AVP-R-DAR",
+            "parent": "VPA-AVP-R"
+        },
+        {
+            "name": "DAR",
+            "parent": "AVP-R-DAR"
+        },
+        {
+            "name": "VPA-AVP-SAO",
+            "parent": "VPA"
+        },
+        {
+            "name": "AVP-SAO",
+            "parent": "VPA-AVP-SAO"
+        },
+        {
+            "name": "AVP-SAO-GE",
+            "parent": "AVP-SAO"
+        },
+        {
+            "name": "AVP-SAO-CLE",
+            "parent": "AVP-SAO"
+        },
+        {
+            "name": "AVP-SAO-CC",
+            "parent": "AVP-SAO"
+        },
+        {
+            "name": "AVP-SAO-SPE",
+            "parent": "AVP-SAO"
+        },
+        {
+            "name": "AVP-SAO-EULER",
+            "parent": "AVP-SAO"
+        },
+        {
+            "name": "AVP-SAO-EPFL-GYMN",
+            "parent": "AVP-SAO"
+        },
+        {
+            "name": "AVP-SAO-SPS",
+            "parent": "AVP-SAO"
+        },
+        {
+            "name": "AVP-SAO-SAE",
+            "parent": "AVP-SAO"
+        },
+        {
+            "name": "AVP-SAO-SSU",
+            "parent": "AVP-SAO"
+        },
+        {
+            "name": "VPA-VP",
+            "parent": "VPA"
+        },
+        {
+            "name": "VPA-VP-GE",
+            "parent": "VPA-VP"
+        },
+        {
+            "name": "VPO",
+            "parent": "EPFL"
+        },
+        {
+            "name": "VPO-DC",
+            "parent": "VPO"
+        },
+        {
+            "name": "RESCO",
+            "parent": "VPO-DC"
+        },
+        {
+            "name": "RESCO-GE",
+            "parent": "RESCO"
+        },
+        {
+            "name": "CNST",
+            "parent": "VPO-DC"
+        },
+        {
+            "name": "CNST-GE",
+            "parent": "CNST"
+        },
+        {
+            "name": "DDC",
+            "parent": "VPO-DC"
+        },
+        {
+            "name": "DDC-GE",
+            "parent": "DDC"
+        },
+        {
+            "name": "EPFLFR",
+            "parent": "VPO-DC"
+        },
+        {
+            "name": "EPFLFR-BUILD",
+            "parent": "EPFLFR"
+        },
+        {
+            "name": "EPFLFR-GE",
+            "parent": "EPFLFR"
+        },
+        {
+            "name": "EPFLFR-CC",
+            "parent": "EPFLFR"
+        },
+        {
+            "name": "EPFLFR-CSLL",
+            "parent": "EPFLFR"
+        },
+        {
+            "name": "UTFR",
+            "parent": "EPFLFR"
+        },
+        {
+            "name": "EPFLGE",
+            "parent": "VPO-DC"
+        },
+        {
+            "name": "EPFLGE-GE",
+            "parent": "EPFLGE"
+        },
+        {
+            "name": "EPFLGE-CC",
+            "parent": "EPFLGE"
+        },
+        {
+            "name": "EPFLNE",
+            "parent": "VPO-DC"
+        },
+        {
+            "name": "EPFLNE-GE",
+            "parent": "EPFLNE"
+        },
+        {
+            "name": "EPFLNE-CC",
+            "parent": "EPFLNE"
+        },
+        {
+            "name": "PMO",
+            "parent": "VPO-DC"
+        },
+        {
+            "name": "PMO-GE",
+            "parent": "PMO"
+        },
+        {
+            "name": "PMO-GE-ANC",
+            "parent": "PMO"
+        },
+        {
+            "name": "PMO-BT",
+            "parent": "PMO"
+        },
+        {
+            "name": "EPFLVS",
+            "parent": "VPO-DC"
+        },
+        {
+            "name": "LAS-O",
+            "parent": "EPFLVS"
+        },
+        {
+            "name": "ISIC-GE-VS-O",
+            "parent": "EPFLVS"
+        },
+        {
+            "name": "LMER-O",
+            "parent": "EPFLVS"
+        },
+        {
+            "name": "LNCE-O",
+            "parent": "EPFLVS"
+        },
+        {
+            "name": "LEPA-O",
+            "parent": "EPFLVS"
+        },
+        {
+            "name": "LFIM-O",
+            "parent": "EPFLVS"
+        },
+        {
+            "name": "LSMO-O",
+            "parent": "EPFLVS"
+        },
+        {
+            "name": "UPHUMMEL-O",
+            "parent": "EPFLVS"
+        },
+        {
+            "name": "RAO-O",
+            "parent": "EPFLVS"
+        },
+        {
+            "name": "SCI-SB-MN-A",
+            "parent": "EPFLVS"
+        },
+        {
+            "name": "SCI-STI-FM-A",
+            "parent": "EPFLVS"
+        },
+        {
+            "name": "SCI-STI-JVHA",
+            "parent": "EPFLVS"
+        },
+        {
+            "name": "EPFLVS-GE",
+            "parent": "EPFLVS"
+        },
+        {
+            "name": "EPFLVS-CC",
+            "parent": "EPFLVS"
+        },
+        {
+            "name": "VPO-RH",
+            "parent": "VPO"
+        },
+        {
+            "name": "RRH",
+            "parent": "VPO-RH"
+        },
+        {
+            "name": "RRH-GE",
+            "parent": "RRH"
+        },
+        {
+            "name": "RHOP",
+            "parent": "VPO-RH"
+        },
+        {
+            "name": "RHOP-GE",
+            "parent": "RHOP"
+        },
+        {
+            "name": "DRH",
+            "parent": "VPO-RH"
+        },
+        {
+            "name": "DRH-GE",
+            "parent": "DRH"
+        },
+        {
+            "name": "RHPP",
+            "parent": "VPO-RH"
+        },
+        {
+            "name": "RHPP-GE",
+            "parent": "RHPP"
+        },
+        {
+            "name": "RHSAS",
+            "parent": "VPO-RH"
+        },
+        {
+            "name": "RHSAS-GE",
+            "parent": "RHSAS"
+        },
+        {
+            "name": "RHTD",
+            "parent": "VPO-RH"
+        },
+        {
+            "name": "RHTD-GE",
+            "parent": "RHTD"
+        },
+        {
+            "name": "VPO-SI",
+            "parent": "VPO"
+        },
+        {
+            "name": "IDEV",
+            "parent": "VPO-SI"
+        },
+        {
+            "name": "IDEV-AM",
+            "parent": "IDEV"
+        },
+        {
+            "name": "IDEV-BI",
+            "parent": "IDEV"
+        },
+        {
+            "name": "IDEV-ERP-MD",
+            "parent": "IDEV"
+        },
+        {
+            "name": "IDEV-GE",
+            "parent": "IDEV"
+        },
+        {
+            "name": "IDEV-FIN",
+            "parent": "IDEV"
+        },
+        {
+            "name": "IDEV-FSD",
+            "parent": "IDEV"
+        },
+        {
+            "name": "IDEV-RH",
+            "parent": "IDEV"
+        },
+        {
+            "name": "IDEV-GIF",
+            "parent": "IDEV"
+        },
+        {
+            "name": "IDEV-ING",
+            "parent": "IDEV"
+        },
+        {
+            "name": "GOUV",
+            "parent": "VPO-SI"
+        },
+        {
+            "name": "GOUV-GE",
+            "parent": "GOUV"
+        },
+        {
+            "name": "ITOP",
+            "parent": "VPO-SI"
+        },
+        {
+            "name": "ITOP-GE",
+            "parent": "ITOP"
+        },
+        {
+            "name": "ITOP-INFR",
+            "parent": "ITOP"
+        },
+        {
+            "name": "ITOP-MWS",
+            "parent": "ITOP"
+        },
+        {
+            "name": "ITOP-SUPR",
+            "parent": "ITOP"
+        },
+        {
+            "name": "ITOP-SDESK",
+            "parent": "ITOP"
+        },
+        {
+            "name": "ITOP-SDDC",
+            "parent": "ITOP"
+        },
+        {
+            "name": "DSI",
+            "parent": "VPO-SI"
+        },
+        {
+            "name": "DSI-GE",
+            "parent": "DSI"
+        },
+        {
+            "name": "DSI-EMP",
+            "parent": "DSI"
+        },
+        {
+            "name": "VPO-A",
+            "parent": "VPO"
+        },
+        {
+            "name": "DA",
+            "parent": "VPO-A"
+        },
+        {
+            "name": "DA-GE",
+            "parent": "DA"
+        },
+        {
+            "name": "VPO-SE",
+            "parent": "VPO"
+        },
+        {
+            "name": "EXPL",
+            "parent": "VPO-SE"
+        },
+        {
+            "name": "EXPL-ELEC",
+            "parent": "EXPL"
+        },
+        {
+            "name": "EXPL-GE",
+            "parent": "EXPL"
+        },
+        {
+            "name": "EXPL-CVS",
+            "parent": "EXPL"
+        },
+        {
+            "name": "EXPL-PJT",
+            "parent": "EXPL"
+        },
+        {
+            "name": "EXPL-SUP",
+            "parent": "EXPL"
+        },
+        {
+            "name": "OHS",
+            "parent": "VPO-SE"
+        },
+        {
+            "name": "OHS-AUD",
+            "parent": "OHS"
+        },
+        {
+            "name": "COSEC-CDH",
+            "parent": "OHS"
+        },
+        {
+            "name": "COSEC-CDM",
+            "parent": "OHS"
+        },
+        {
+            "name": "COSEC-ENAC",
+            "parent": "OHS"
+        },
+        {
+            "name": "COSEC-IC",
+            "parent": "OHS"
+        },
+        {
+            "name": "COSEC-SB",
+            "parent": "OHS"
+        },
+        {
+            "name": "COSEC-STI",
+            "parent": "OHS"
+        },
+        {
+            "name": "COSEC-SV",
+            "parent": "OHS"
+        },
+        {
+            "name": "COSEC-TECH",
+            "parent": "OHS"
+        },
+        {
+            "name": "OHS-ST",
+            "parent": "OHS"
+        },
+        {
+            "name": "OHS-GE",
+            "parent": "OHS"
+        },
+        {
+            "name": "OHS-F",
+            "parent": "OHS"
+        },
+        {
+            "name": "SIS",
+            "parent": "VPO-SE"
+        },
+        {
+            "name": "SIS-INT",
+            "parent": "SIS"
+        },
+        {
+            "name": "SIS-SDIS",
+            "parent": "SIS"
+        },
+        {
+            "name": "SIS-SECOURS-FR",
+            "parent": "SIS"
+        },
+        {
+            "name": "SIS-SECOURS-LAUS",
+            "parent": "SIS"
+        },
+        {
+            "name": "SIS-SECOURS-NE",
+            "parent": "SIS"
+        },
+        {
+            "name": "SIS-SECOURS-SION",
+            "parent": "SIS"
+        },
+        {
+            "name": "SIS-SUR",
+            "parent": "SIS"
+        },
+        {
+            "name": "SIS-GE",
+            "parent": "SIS"
+        },
+        {
+            "name": "SIS-SEC",
+            "parent": "SIS"
+        },
+        {
+            "name": "DSE",
+            "parent": "VPO-SE"
+        },
+        {
+            "name": "SCC",
+            "parent": "DSE"
+        },
+        {
+            "name": "DSE-GE",
+            "parent": "DSE"
+        },
+        {
+            "name": "INT",
+            "parent": "VPO-SE"
+        },
+        {
+            "name": "INT-SAVE",
+            "parent": "INT"
+        },
+        {
+            "name": "INT-CO",
+            "parent": "INT"
+        },
+        {
+            "name": "INT-LOGI",
+            "parent": "INT"
+        },
+        {
+            "name": "INT-REPRO",
+            "parent": "INT"
+        },
+        {
+            "name": "INT-GE",
+            "parent": "INT"
+        },
+        {
+            "name": "VPO-QNE",
+            "parent": "VPO"
+        },
+        {
+            "name": "ARCADES",
+            "parent": "VPO-QNE"
+        },
+        {
+            "name": "QNE-GE",
+            "parent": "VPO-QNE"
+        },
+        {
+            "name": "STCC",
+            "parent": "VPO-QNE"
+        },
+        {
+            "name": "STH",
+            "parent": "VPO-QNE"
+        },
+        {
+            "name": "VPO-EM",
+            "parent": "VPO"
+        },
+        {
+            "name": "VPO-EM-GE",
+            "parent": "VPO-EM"
+        },
+        {
+            "name": "DVPO",
+            "parent": "VPO"
+        },
+        {
+            "name": "DVPO-GE",
+            "parent": "DVPO"
+        }
+    ]
+}
