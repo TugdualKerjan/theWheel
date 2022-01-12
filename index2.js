@@ -12,15 +12,14 @@ const stratify = d3
 		return d.name;
 	})
 	.parentId(function (d) {
-		print(d);
 		return d.parent;
 	});
 
-let tree = (data) =>
+let tree = 
 	d3
 		.tree()
 		.size([2 * Math.PI, 500])
-		.separation((a, b) => (a.parent == b.parent ? 1 : 3))(stratify(data));
+		.separation((a, b) => (a.parent == b.parent ? 1 : 4));
 
 const g = svg.append("g");
 
@@ -35,8 +34,10 @@ const nodegroup = g
 	.append("g")
 	.attr("stroke-linejoin", "round")
 	.attr("stroke-width", 3);
+
 d3.json("data2.json", function (error, data) {
 	if (error) throw error;
+	data = stratify(data);
 	function newdata(animate = true) {
 		let root = tree(data);
 		let links_data = root.links();
@@ -139,7 +140,7 @@ d3.json("data2.json", function (error, data) {
 			.attr("transform", (d) => (d.x >= Math.PI ? "rotate(180)" : null));
 	}
 	newdata(false);
-	// document.body.appendChild(svg.node());
+	document.body.appendChild(svg.node());
 
 	// const box = g.node().getBBox();
 
