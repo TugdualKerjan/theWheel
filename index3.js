@@ -1,41 +1,15 @@
-var width = 960,
-	height = 1000,
-	duration = 750;
+var duration = 3000;
 
-var nodes, links;
+var nodes_data, links_data;
 var i = 0;
 
-var svg = d3
-	.select("body")
-	.append("svg")
-	.attr("width", width)
-	.attr("height", height);
+const svg = d3
+	.select("svg")
+	.style("width", "99vw")
+	.style("height", "99vh")
+	.style("font", "12px sans-serif");
 
-var g = svg
-	.append("g")
-	.attr(
-		"transform",
-		"translate(" + (width / 2 + 40) + "," + (height / 2 + 90) + ")"
-	);
-
-function connector(d) {
-	return (
-		"M" +
-		project(d.x, d.y) +
-		"C" +
-		project(d.x, (d.y + d.parent.y) / 2) +
-		" " +
-		project(d.parent.x, (d.y + d.parent.y) / 2) +
-		" " +
-		project(d.parent.x, d.parent.y)
-	);
-}
-
-var treeMap = d3.tree().size([2 * Math.PI, 250]),
-	root;
-var nodeSvg, linkSvg, nodeEnter, linkEnter;
-
-var stratify = d3
+const stratify = d3
 	.stratify()
 	.id(function (d) {
 		return d.name;
@@ -44,20 +18,31 @@ var stratify = d3
 		return d.parent;
 	});
 
-d3.json("data2.json", function (error, treeData) {
+let tree = d3
+	.tree()
+	.size([2 * Math.PI, 750])
+	.separation((a, b) => (a.parent == b.parent ? 1 : 4));
+
+let root;
+
+const g = svg.append("g");
+
+const linkgroup = g
+	.append("g")
+	.attr("fill", "none")
+	.attr("stroke", "#555")
+	.attr("stroke-opacity", 0.4)
+	.attr("stroke-width", 1.5);
+
+const nodegroup = g
+	.append("g")
+	.attr("stroke-linejoin", "round")
+	.attr("stroke-width", 3);
+
+d3.json("data2.json", function (error, data) {
 	if (error) throw error;
 
-	root = stratify(treeData);
-
-	root.each(function (d) {
-		console.log(d);
-		d.name = d.data.name; //transferring name to a name variable
-		d.id = i; //Assigning numerical Ids
-		i += i;
-	});
-
-	root.x0 = height / 2;
-	root.y0 = 0;
+	root = stratify(data);
 
 	function collapse(d) {
 		if (d.children) {
@@ -66,156 +51,148 @@ d3.json("data2.json", function (error, treeData) {
 			d.children = null;
 		}
 	}
-	// root.children.forEach(collapse);
+	// root.children.forEach((d) => d.children.forEach(collapse));
 	update(root);
 });
 
 function update(source) {
-	//root = treeMap(root);
-	nodes = treeMap(root).descendants();
-	//console.log(nodes);
-	//links = root.descendants().slice(1);
-	links = nodes.slice(1);
-	//console.log(links);
+	var test = tree(root);
+	nodes_data = test.descendants();
+	links_data = test.links();
+
 	var nodeUpdate;
-	var nodeExit;
+	var nodes, nodeEnter, linksEnter;
 
-	// Normalize for fixed-depth.
-	nodes.forEach(function (d) {
-		d.y = d.depth * 180;
-	});
 
-	nodeSvg = g.selectAll(".node").data(nodes, function (d) {
+	let t = d3
+		.transition()
+		.duration(400)
+		.ease(d3.easeLinear)
+		.on("end", function () {
+			const box = g.node().getBBox();
+			svg
+				.transition()
+				.duration(1000)
+				.attr("viewBox", `${box.x} ${box.y} ${box.width} ${box.height}`);
+		});
+
+	let links = linkgroup
+		.selectAll("path")
+		.data(links_data, (d) => d.source.data.name + "_" + d.target.data.name);
+
+	// Enter any new links at the parent's previous position.
+	linksEnter = links
+		.enter()
+		.insert("path", "g")
+		.attr("class", "link")
+		.transition()
+		.duration(duration)
+		// .attr(
+		// 	"d",
+		// 	d3
+		// 		.linkRadial()
+		// 		.angle((d) => d.x)
+		// 		.radius((d) => d.y)
+		// 		.target((d) => d.source)
+		// );
+
+	// Transition links to their new position.
+	links
+		.merge(linksEnter)
+		.transition()
+		.duration(duration)
+		.attr(
+			"d",
+			d3
+				.linkRadial()
+				.angle((d) => d.x)
+				.radius((d) => d.y)
+		);
+
+	// Transition exiting nodes to the parent's new position.
+	links
+		.exit()
+		.transition()
+		.duration(duration)
+		.attr(
+			"d",
+			d3
+				.linkRadial()
+				.angle((d) => d.x)
+				.radius((d) => d.y)
+				.target((d) => d.source)
+		)
+		// .remove();
+
+
+	// Stash the old positions for transition.
+	nodes = nodegroup.selectAll(".node").data(nodes_data, (d) => {
 		return d.id || (d.id = ++i);
 	});
 
-	//nodeSvg.exit().remove();
-
-	var nodeEnter = nodeSvg
+	var nodeEnter = nodes
 		.enter()
 		.append("g")
-		//.attr("class", function(d) { return "node" + (d.children ? " node--internal" : " node--leaf"); })
 		.attr("class", "node")
-		.attr(
-			"transform",
-			(d) => `
-    rotate(${(d.x * 180) / Math.PI - 90})
-    translate(${d.y},0)
-  `
-		)
-		//.attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
 		.on("click", click)
-		.on("mouseover", function (d) {
-			return "minu";
-		});
+		// .attr(
+		// 	"transform",
+		// 	(d) => {
+		// 		console.log(d.parent); return `
+		// 	rotate(${((d.parent) ? d.parent.x * 180 : d.x * 180) / Math.PI - 90})
+		// 	translate(${(d.parent) ? d.parent.y : d.y, 0})
+		// 	scale(0)`;
+		// 	}
+		// );
 
-	nodeEnter.append("circle").attr("r", 5).style("fill", color);
-
+	//Add text and circle
 	nodeEnter
 		.append("text")
-		.attr("dy", ".31em")
-		//.attr("x", function(d) { return d.x < 180 === !d.children ? 6 : -6; })
-		.attr("x", function (d) {
-			return d.children || d._children ? -10 : 10;
-		})
-		.style("text-anchor", function (d) {
-			return d.x < 180 === !d.children ? "start" : "end";
-		})
-		//.attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
-		.attr("transform", function (d) {
-			return "rotate(" + (d.x < 180 ? d.x - 90 : d.x + 90) + ")";
-		})
-		.text(function (d) {
-			return d.data.name;
-		});
+		.attr("dy", "0.31em")
+		.text((d) => d.data.name);
+
+	nodeEnter
+		.append("circle")
+		.attr("r", 5)
+		.style("fill", color);
 
 	// Transition nodes to their new position.
-	var nodeUpdate = nodeSvg
+	nodes
 		.merge(nodeEnter)
 		.transition()
 		.duration(duration)
 		.attr(
 			"transform",
 			(d) => `
-        rotate(${(d.x * 180) / Math.PI - 90})
-        translate(${d.y},0)
-      `
-		);
-	// .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
-
-	nodeSvg.select("circle").style("fill", color);
-
-	nodeUpdate.select("text").style("fill-opacity", 1);
-
-	// Transition exiting nodes to the parent's new position.
-	var nodeExit = nodeSvg
-		.exit()
-		.transition()
-		.duration(duration)
-		.attr("transform", function (d) {
-			return "translate(" + source.y + "," + source.x + ")";
-		}) //for the animation to either go off there itself or come to centre
-		.remove();
-
-	nodeExit.select("circle").attr("r", 1e-6);
-
-	nodeExit.select("text").style("fill-opacity", 1e-6);
-
-	nodes.forEach(function (d) {
-		d.x0 = d.x;
-		d.y0 = d.y;
-	});
-
-	linkSvg = g.selectAll(".link").data(links, function (link) {
-		var id = link.id + "->" + link.parent.id;
-		return id;
-	});
-
-	// Transition links to their new position.
-	linkSvg.transition().duration(duration);
-	// .attr('d', connector);
-
-	// Enter any new links at the parent's previous position.
-	linkEnter = linkSvg
-		.enter()
-		.insert("path", "g")
-		.attr("class", "link")
-		.attr(
-			"d",
-			d3
-				.linkRadial()
-				.angle((d) => d.x)
-				.radius((d) => d.y)
-		);
-
-	// Transition links to their new position.
-	linkSvg
-		.merge(linkEnter)
-		.transition()
-		.duration(duration)
-		.attr(
-			"d",
-			d3
-				.linkRadial()
-				.angle((d) => d.x)
-				.radius((d) => d.y)
+			rotate(${(d.x * 180) / Math.PI - 90})
+			translate(${d.y},0)
+			scale(1)`
 		);
 
 	// Transition exiting nodes to the parent's new position.
-	linkSvg
+	nodes
 		.exit()
 		.transition()
 		.duration(duration)
 		.attr(
-			"d",
-			d3
-				.linkRadial()
-				.angle((d) => d.x)
-				.radius((d) => d.y)
+			"transform",
+			(d) => `
+			rotate(${(d.parent.x * 180) / Math.PI - 90})
+			translate(${d.parent.y},0)
+			scale(0)`
+		) //for the animation to either go off there itself or come to centre
+		// .remove();
+
+	nodes.select("circle").style("fill", color);
+	
+	//Rotate text
+	nodegroup
+		.selectAll("g text")
+		.attr("x", (d) => (d.x < Math.PI === !d.children ? 6 : -6))
+		.attr("text-anchor", (d) =>
+			d.x < Math.PI === !d.children ? "start" : "end"
 		)
-		.remove();
-
-	// Stash the old positions for transition.
+		.attr("transform", (d) => (d.x >= Math.PI ? "rotate(180)" : null));
 }
 
 function click(d) {
@@ -233,8 +210,8 @@ function color(d) {
 	return d._children
 		? "#3182bd" // collapsed package
 		: d.children
-		? "#c6dbef" // expanded package
-		: "#fd8d3c"; // leaf node
+			? "#c6dbef" // expanded package
+			: "#fd8d3c"; // leaf node
 }
 
 function flatten(root) {
@@ -248,10 +225,4 @@ function flatten(root) {
 	}
 	recurse(root);
 	return nodes;
-}
-
-function project(x, y) {
-	var angle = ((x - 90) / 180) * Math.PI,
-		radius = y;
-	return [radius * Math.cos(angle), radius * Math.sin(angle)];
 }

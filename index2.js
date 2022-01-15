@@ -15,11 +15,10 @@ const stratify = d3
 		return d.parent;
 	});
 
-let tree = 
-	d3
-		.tree()
-		.size([2 * Math.PI, 500])
-		.separation((a, b) => (a.parent == b.parent ? 1 : 4));
+let tree = d3
+	.tree()
+	.size([2 * Math.PI, 500])
+	.separation((a, b) => (a.parent == b.parent ? 1 : 4));
 
 const g = svg.append("g");
 
@@ -41,22 +40,6 @@ d3.json("data2.json", function (error, data) {
 	function newdata(animate = true) {
 		let root = tree(data);
 		let links_data = root.links();
-		let links = linkgroup
-			.selectAll("path")
-			.data(links_data, (d) => d.source.data.name + "_" + d.target.data.name);
-
-		links.exit().remove();
-
-		let newlinks = links
-			.enter()
-			.append("path")
-			.attr(
-				"d",
-				d3
-					.linkRadial()
-					.angle((d) => d.x)
-					.radius(0.1)
-			);
 
 		let t = d3
 			.transition()
@@ -70,8 +53,24 @@ d3.json("data2.json", function (error, data) {
 					.attr("viewBox", `${box.x} ${box.y} ${box.width} ${box.height}`);
 			});
 
+		let links = linkgroup
+			.selectAll("path")
+			.data(links_data, (d) => d.source.data.name + "_" + d.target.data.name);
+		links.exit().remove();
+
+		let newlinks = links
+			.enter()
+			.append("path")
+			.attr(
+				"d",
+				d3
+					.linkRadial()
+					.angle((d) => d.x)
+					.radius(0.1)
+			);
+
 		let alllinks = linkgroup.selectAll("path");
-		alllinks.transition(t).attr(
+		links.merge(newlinks).transition(t).attr(
 			"d",
 			d3
 				.linkRadial()

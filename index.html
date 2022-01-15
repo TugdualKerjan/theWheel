@@ -23,7 +23,52 @@
 		stroke-opacity: 0.4;
 		stroke-width: 1.5px;
 	}
+
+	* {
+		margin: 0;
+		padding: 0;
+		font-family: "Poppins", sans-serif;
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+		font-size: 20px;
+	}
+
+	::-webkit-scrollbar {
+		display: none;
+	}
 </style>
+
+<div id="Ford"></div>
+<div id="Jarrah"></div>
+<div id="Kwon"></div>
+<div id="Locke"></div>
+<div id="Reyes"></div>
+<div id="Shephad"></div>
 <svg></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
+<!-- <script>
+	var data = [
+		{ name: "Locke", number: 4 },
+		{ name: "Reyes", number: 8 },
+		{ name: "Ford", number: 15 },
+		{ name: "Jarrah", number: 16 },
+		{ name: "Shephard", number: 31 },
+		{ name: "Kwon", number: 34 },
+	];
+
+	var thing = d3.selectAll("div")
+		.data(data, function (d) {
+			console.log(this);
+			console.log(d);
+			return d ? d.name : this.id;
+		}).forEach(element => {
+			console.log(element);
+		});
+		
+	thing.text(function (d) {
+			return d.number;
+		});
+	
+	console.log(thing);
+</script> -->
 <script src="index3.js"></script>
