@@ -20,8 +20,8 @@ const stratify = d3
 
 let tree = d3
 	.tree()
-	.size([2 * Math.PI, 750])
-	.separation((a, b) => (a.parent == b.parent ? 1 : 4));
+	.size([2 * Math.PI, 700])
+	.separation((a, b) => (a.parent == b.parent ? 1 : 2)/Math.pow(a.depth,1));
 
 let root;
 
@@ -43,26 +43,15 @@ d3.json("data2.json", function (error, data) {
 	if (error) throw error;
 
 	root = stratify(data);
-
-	function collapse(d) {
-		if (d.children) {
-			d._children = d.children;
-			d._children.forEach(collapse);
-			d.children = null;
-		}
-	}
-	// root.children.forEach((d) => d.children.forEach(collapse));
 	update(root);
 });
 
-function update(source) {
+function update() {
+	
 	var test = tree(root);
 	nodes_data = test.descendants();
 	links_data = test.links();
-
-	var nodeUpdate;
 	var nodes, nodeEnter, linksEnter;
-
 
 	let t = d3
 		.transition()
@@ -123,7 +112,6 @@ function update(source) {
 				.target((d) => d.source)
 		)
 		// .remove();
-
 
 	// Stash the old positions for transition.
 	nodes = nodegroup.selectAll(".node").data(nodes_data, (d) => {
@@ -203,7 +191,7 @@ function click(d) {
 		d.children = d._children;
 		d._children = null;
 	}
-	update(d);
+	update();
 }
 
 function color(d) {
@@ -225,4 +213,12 @@ function flatten(root) {
 	}
 	recurse(root);
 	return nodes;
+}
+
+function collapse(d) {
+	if (d.children) {
+		d._children = d.children;
+		d._children.forEach(collapse);
+		d.children = null;
+	}
 }
